@@ -1,6 +1,24 @@
+body {
+    position: relative;
+    height: 100vh;
+}
+
+body::after {
+    content: "";
+    background-image: url("../img/country-quilt.png");
+    background-repeat: repeat;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
 .header {
     font-family: 'Lato', sans-serif;
-    margin-top:30px;
+    padding-top:30px;
 }
 
 .body {
@@ -65,4 +83,12 @@
 
 .nopadding {
     padding-left: 10px !important;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 20px;
 }
