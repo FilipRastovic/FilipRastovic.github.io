@@ -5,9 +5,9 @@ body {
 
 body::after {
     content: "";
-    background-image: url("../img/country-quilt.png");
+    background-image: url("../img/bg.jpg");
     background-repeat: repeat;
-    opacity: 0.3;
+    opacity: 0.9;
     top: 0;
     left: 0;
     bottom: 0;
@@ -72,8 +72,14 @@ body::after {
 
 .footer {
     font-family: 'Lato', sans-serif;
+    padding-bottom: 100px;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        height: 150vh;
+    }
+}
 .disclaimer {
     color: #747474;
     font-weight: 600;
