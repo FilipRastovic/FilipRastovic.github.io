@@ -1,6 +1,10 @@
-body {
+body.fr-home {
     position: relative;
     height: 100vh;
+}
+
+body.fr-p {
+    position: relative;
 }
 
 body::after {
@@ -91,10 +95,25 @@ body::after {
     padding-left: 10px !important;
 }
 
-img {
+.profile-img {
     width: 150px;
     height: auto;
     border-radius: 50%;
     display: block;
     margin-bottom: 20px;
+}
+
+.portfolio-item-title {
+    margin-top: 0px;
+    margin-bottom: 27px;
+    font-size: 16px;
+}
+
+.portfolio-img {
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.portfolio-item-wrapper{
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
