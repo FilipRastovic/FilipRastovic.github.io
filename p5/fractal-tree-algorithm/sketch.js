@@ -17,7 +17,7 @@ function draw() {
 
 function branch(len) {
 	line(0, 0, 0, -len);
-	translate(0, -len); // pomeram centar
+	translate(0, -len); // pivoting the center
 	
 
 	if( len > 4) {
