@@ -111,9 +111,26 @@ body::after {
 
 .portfolio-img {
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
 }
 
 .portfolio-item-wrapper{
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.ana-image {
+    position: relative;
+}
+
+.dance-1 {
+    position: absolute;
+    top: 530px;
+    left: 40px;
+}
+
+.dance-2 {
+    position: absolute;
+    top: 290px;
+    left: 40px;
 }
