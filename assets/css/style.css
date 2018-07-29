@@ -134,3 +134,8 @@ body::after {
     top: 290px;
     left: 40px;
 }
+
+a:hover,
+a:focus {
+    color: #098bda;
+}
