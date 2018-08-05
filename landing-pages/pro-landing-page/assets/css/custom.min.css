@@ -14449,6 +14449,9 @@ h1, .h2 {
     .form {
       padding-top: 10px; } }
 
+.form-button {
+  padding: 21px 12px !important; }
+
 @media (min-width: 768px) {
   .hero-heading {
     font-weight: 700 !important;
