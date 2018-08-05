@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pro Landing Page Design</title>
+    <title>Stargazer Studio - Landing Pages</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/custom.min.css">
+    <link rel="icon" type="image/png" href="star_icon.png" />
+    <meta name="description" content="Stargazer Studio - Pro Landing Page Design">
+    <meta name="keywords" content="web,design,development,stargazer,studio">
+    <meta name="author" content="Stargazer Studio">
+    <meta property="og:title" content="Stargazer Studio - Pro Landing Page Design" />
+    <meta property="og:url" content="https://stargazerstudio.net" />
+    <meta property="og:image" content="meta_tag_img.png" />
+
 </head>
 <body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+
     <!-- Mobile Navbar-->
     <section class="navbar-section hidden-md hidden-lg">
         <div class="container-fluid">
@@ -17,8 +35,10 @@
                     <span class="navbar-brand-text white">Stargazer Studio</span>
                     <span class="navbar-brand-quote white">Pro Landing Page Design</span>
                 </div>
-                <div class="sidenav-hamburger">
-                    <span class="burger"></span>
+                <div class="sidenav-hamburger pull-right">
+                    <span id="toggle-button" class="burger">
+                        <i class="fa fa-bars"></i>
+                    </span>
                 </div>
             </div>
         </div>
@@ -33,10 +53,10 @@
             </a>
             </div>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Looking for an UX audit?</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#" class="contact">Contact?</a></li>
+                <li><a id="audit" href="#">Looking for an UX audit?</a></li>
+                <li><a id="portfolio" href="#">Portfolio</a></li>
+                <li><a id="testimonials" href="#">Testimonials</a></li>
+                <li><a id="contact" href="#" class="contact">Contact?</a></li>
             </ul>
         </div>
     </nav>
@@ -45,7 +65,7 @@
     <div class="highlight-line"></div>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section id="hero-section" class="hero">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-12 text-center">
@@ -55,24 +75,36 @@
                     <p class="white pb-20">Sign up for a free UX audit.</p>
                 </div>
                 <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 text-center">
-                    <form action="" class="form">
+                    <form action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=11d2dc94fd" method="post" id="mc-embedded-subscribe-form" class="form validate" name="mc-embedded-subscribe-form" target="_blank" novalidate>
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="First name">
+                            <label class="sr-only" for="mce-FNAME">First Name </label>
+                            <input type="text" value="" name="FNAME" placeholder="First name" class="form-control" id="mce-FNAME">
                         </div>
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="Last name">
+                            <label class="sr-only" for="mce-LNAME">Last Name </label>
+	                        <input type="text" value="" name="LNAME" class="form-control" placeholder="Last name" id="mce-LNAME">
                         </div>
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="E-mail">
+                            <label class="sr-only" for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                            <input type="email" value="" name="EMAIL" class="form-control" placeholder="E-mail" id="mce-EMAIL">
+                        
                         </div>
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="Website URL">
+                            <label class="sr-only" for="mce-MMERGE4">Main concern </label>
+                            <select name="MMERGE4" class="form-control" id="mce-MMERGE4">
+                            <option selected="selected">page.</option>
+                            <option value="I need a landing page.">I need a landing page.</option>
+                            <option value="I need a UX audit.">I need a UX audit.</option>
+                            <option value="I need a website redesign.">I need a website redesign.</option>
+                            </select>
                         </div>
+
                         <div class="form-group col-md-12">
-                            <input type="text" class="form-control" placeholder="Website URL">
+                            <label class="sr-only" for="mce-MMERGE3">Website </label>
+                            <input type="url" value="" name="MMERGE3" class="form-control" placeholder="Website URL" id="mce-MMERGE3">
                         </div>
                         <div class="col-md-12">
-                            <button class="btn form-control">Sign Up For UX Audit</button>
+                            <input type="submit" value="Sign Up For UX Audit" name="subscribe" id="mc-embedded-subscribe" class="btn form-control">
                         </div>
                     </form>
                 </div>
@@ -208,7 +240,7 @@
     <!-- Highlight Line -->
     <div class="highlight-line"></div>
 
-    <section class="portfolio">
+    <section id="portfolio-section" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
@@ -304,7 +336,7 @@
         </div>
     </section>
 
-    <section class="ad brands">
+    <section id="testimonials-section" class="ad brands">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12 col-md-12">
@@ -325,7 +357,7 @@
     <!-- Highlight Line -->
     <div class="highlight-line"></div>
 
-    <section class="bot-form">
+    <section id="contact-section" class="bot-form">
         <div class="container">
             <div class="row">
                 <div class="col-md-7 hidden-xs hidden-sm">
@@ -368,16 +400,16 @@
               <div class="col-md-5 col-md-offset-1">
                 <ul class="list-unstyled">
                   <li>
-                    <a href="#!">Looking for an UX audit?</a>
+                    <a id="audit-bot" href="#!">Looking for an UX audit?</a>
                   </li>
                   <li>
-                    <a href="#!">Portfolio</a>
+                    <a id="portfolio-bot" href="#!">Portfolio</a>
                   </li>
                   <li>
-                    <a href="#!">Testimonials</a>
+                    <a id="testimonials-bot" href="#!">Testimonials</a>
                   </li>
                   <li>
-                    <a href="#!">Contact</a>
+                    <a id="contact-bot" href="#!">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -387,6 +419,8 @@
           <a href="https://stargazerstudio.net"> stargazerstudio.net</a>
         </div>
       </footer>
+
+      <button id="myBtn" title="Go to top">Top</button>
     <script src="assets/js/custom.min.js"></script>
 </body>
 </html>
