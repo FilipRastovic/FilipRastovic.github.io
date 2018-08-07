@@ -14433,11 +14433,10 @@ h1, .h2 {
 
 .form {
   z-index: 3; }
-  .form input, .form select {
+  .form input {
     padding: 27px 12px;
     border-radius: 4px; }
-  .form input::placeholder,
-  .form select::placeholder {
+  .form input::placeholder {
     color: #a3a3a3; }
   .form .btn {
     background: #FF9131;
@@ -14451,6 +14450,15 @@ h1, .h2 {
 
 .form-button {
   padding: 21px 12px !important; }
+
+.form-control-select {
+  width: 100%;
+  padding: 19px 12px;
+  border: none;
+  border-radius: 4px;
+  color: #a3a3a3; }
+  .form-control-select option {
+    color: black !important; }
 
 @media (min-width: 768px) {
   .hero-heading {
