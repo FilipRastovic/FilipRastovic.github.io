@@ -1,0 +1,66 @@
+.portfolio {
+    padding-bottom: 60px;
+    background: #F3F3F3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F3F3F3, #FFF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F3F3F3, #FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    z-index: 1;
+
+    .portfolio-wrapper {
+        img {
+            margin-top: 77px;
+            @media (min-width: 768px) {
+                padding-bottom: 100px;
+            }
+        }
+    }
+
+    .btn {
+        background: #F4E04D;
+        margin-top: 60px !important;
+    }
+    
+    .testimonials-title {
+        margin-top: 220px;
+    }
+
+    h3 { 
+        font-weight: 700 !important;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    p {
+        font-size: 17px !important;
+        line-height: 26px !important;
+        font-weight: 400 !important;
+        text-align: left;
+    }
+}
+
+.portfolio::after {
+    content: "";
+    background: url(../img/copy-background.png);
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-size: cover;
+    z-index: -2;
+
+    @media (min-width: 768px) {
+        background: url(../img/background-curve.png);
+        background-size: contain;
+        opacity: 0.05;
+    }
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.mt-120 {
+    margin-top: 120px !important;
+}

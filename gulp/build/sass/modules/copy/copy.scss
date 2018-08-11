@@ -1,0 +1,86 @@
+.copy {
+    padding-bottom: 60px;
+    background: #F3F3F3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F3F3F3, #FFF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F3F3F3, #FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    z-index: 1;
+
+    h4 {
+        font-weight: 700;
+    }
+
+    @media (min-width: 768px) {
+        h4 {
+            @media (min-width: 1000px) {
+                margin-top: 100px;
+                text-align: left;
+            }
+            
+            font-size: 56px !important;
+            font-weight: 600 !important;
+        }
+
+        p {
+            
+            font-weight: 400 !important;
+            @media (min-width: 1000px){
+                position: relative;
+                top: -120px;
+                right: -2px;
+                text-align: left;
+            }
+        }
+
+        .pull-right {
+            text-align: right !important;
+        }
+
+        img {
+            @media (min-width: 1000px) {
+                top: -100px;
+                position: relative;
+            }
+        }
+
+        .padded-top {
+            padding-top: 100px !important;
+        }
+
+        .pull-right-fix {
+            right: -100px;
+        }
+    }
+}
+
+.copy::after {
+    content: "";
+    background: url(../img/copy-background.png);
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-size: cover;
+    z-index: -2;
+
+    @media (min-width: 768px) {
+        background: url(../img/background-curve.png);
+        background-size: contain;
+        opacity: 0.05;
+    }
+}
+
+.padded {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.transform-image {
+    img {
+        @media (min-width: 400px) {
+            width: 250px;
+        }
+    }
+}

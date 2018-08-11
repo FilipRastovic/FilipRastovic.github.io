@@ -1,0 +1,36 @@
+.navbar-section {
+    background: $navbar-color;
+    height: 95px;
+    span {
+        display: block;
+    }
+
+    .container-fluid {
+        padding-left: 10px;
+    }   
+}
+
+.navbar-brand {
+    padding: 10px 0px;
+}
+
+.navbar-brand-text {
+    font-size: $brand-size;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+
+.navbar-brand-quote {
+    font-size: $brand-quote;
+    font-style: italic;
+    padding-top: 7px;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px;
+    padding-top: 34px;
+    padding-right: 18px;
+}
