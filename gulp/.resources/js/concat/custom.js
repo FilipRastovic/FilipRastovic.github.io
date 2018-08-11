@@ -48,18 +48,15 @@ $("#audit-bot").click(function() {
 });
 
 /* Open */
-function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-}
+$("#toggle-button").click(function() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+});
 
 /* Close */
-function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
-}
-
-$('#toggle-button').click(function() {
-    $("#myNav").height = "100%";
-    console.log('test');
+$("#closeNav").click(function() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
 });
 // When the user scrolls down 20px from the top of the document, show the button
 $('#myBtn').click(function(){
