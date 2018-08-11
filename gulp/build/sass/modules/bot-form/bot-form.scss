@@ -1,4 +1,10 @@
 .bot-form {
+
+    .form-button {
+        border-radius: 50px !important;
+        margin-bottom: 16px !important;
+    }
+
     padding-bottom: 60px;
     background: #F3F3F3;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #F3F3F3, #FFF);  /* Chrome 10-25, Safari 5.1-6 */
@@ -48,8 +54,12 @@
         color: inherit !important;
     }
 
-    input {
+    input,
+    select,
+    textarea {
         border: none;
+        margin-bottom: 15px;
+
     }
     input::placeholder {
         color: rgb(175, 175, 175) !important;
@@ -65,8 +75,14 @@
         padding: 10px 30px 50px;
         
 
-        input {
+        input,
+        select,
+        button {
             border-radius: 50px;
+        }
+
+        textarea {
+            border-radius: 20px;
         }
 
         button {

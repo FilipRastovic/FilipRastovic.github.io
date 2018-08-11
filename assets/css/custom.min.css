@@ -14214,6 +14214,9 @@ body {
   position: relative;
   z-index: 1;
   color: #333 !important; }
+  .bot-form .form-button {
+    border-radius: 50px !important;
+    margin-bottom: 16px !important; }
   @media (min-width: 768px) {
     .bot-form {
       padding-top: 100px;
@@ -14240,8 +14243,11 @@ body {
   .bot-form p {
     text-align: left;
     color: inherit !important; }
-  .bot-form input {
-    border: none; }
+  .bot-form input,
+  .bot-form select,
+  .bot-form textarea {
+    border: none;
+    margin-bottom: 15px; }
   .bot-form input::placeholder {
     color: #afafaf !important; }
   .bot-form form {
@@ -14252,8 +14258,12 @@ body {
       .bot-form form {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
         border-radius: 0px; } }
-    .bot-form form input {
+    .bot-form form input,
+    .bot-form form select,
+    .bot-form form button {
       border-radius: 50px; }
+    .bot-form form textarea {
+      border-radius: 20px; }
     .bot-form form button {
       border-radius: 50px !important; }
   .bot-form h2.bot-form-title {
