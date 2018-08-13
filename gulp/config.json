@@ -24,7 +24,6 @@
       "vendor" : [
         "build/third_party/legacy/modernizer/modernizr.js",
         "node_modules/jquery/dist/jquery.js",
-        "build/third_party/js/jquery-mobile/jquery.mobile.js",
         "build/third_party/legacy/raty-fa/lib/jquery.raty-fa.js",
         "node_modules/bootstrap-sass/assets/javascripts/bootstrap.js",
         "node_modules/jquery-validation/dist/jquery.validate.js",

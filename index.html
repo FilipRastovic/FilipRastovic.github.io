@@ -17,25 +17,32 @@
 
 </head>
 <body>
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-    </div>
-        
 
+    <div class="overlay overlay-data">
+        <a href="" class="overlay-close">CLOSE
+        </a>
+        <nav>
+            <ul>
+            <li class="nav-home" role="presentation"><a href="">Home</a></li>
+            <li role="presentation"><a href="">About</a></li>
+            <li role="presentation"><a href="">Work</a></li>
+            <li role="presentation"><a href="">Blog</a></li>
+            <li role="presentation"><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
     <!-- Mobile Navbar-->
     <section class="navbar-section hidden-md hidden-lg">
         <div class="container-fluid">
+            
+
             <div class="navbar navbar-mobile">
                 <div class="navbar-brand">
                     <span class="navbar-brand-text white">Filip Rastovic</span>
                     <span class="navbar-brand-quote white">Expert landing page designer</span>
                 </div>
                 <div class="sidenav-hamburger pull-right">
-                    <span id="openNav" class="burger">
+                    <span id="toggle-button" class="burger">
                         <i class="fa fa-bars"></i>
                     </span>
                 </div>
@@ -136,9 +143,9 @@
                         
                         </div>
                         <div class="form-group col-md-6">
-                            <label class="sr-only" for="mce-MMERGE4">Main concern </label>
+                            <label class="sr-only" for="mce-MMERGE4">Main concern</label>
                             <select name="MMERGE4" class="form-control-select" id="mce-MMERGE4">
-                                <option disabled selected label="Main Concern?">Main Concern?</option>
+                                <option disabled selected value="Main Concern?">Main Concern?</option>
                                 <option value="I need a landing page.">I need a landing page.</option>
                                 <option value="I need a UX audit.">I need a UX audit.</option>
                                 <option value="I need a website redesign.">I need a website redesign.</option>
@@ -438,43 +445,6 @@
         </div>
     </section>
 
-
-    <!--                    <form action="https://stargazerstudio.us17.list-manage.com/subscribe/post?u=efb61a9e2a6a0b8523d778d7c&amp;id=11d2dc94fd" method="post" id="mc-embedded-subscribe-form" class="form validate" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-                        <div class="form-group col-md-6">
-                            <label class="sr-only" for="mce-FNAME">First Name </label>
-                            <input type="text" value="" name="FNAME" placeholder="First name" class="form-control" id="mce-FNAME">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label class="sr-only" for="mce-LNAME">Last Name </label>
-	                        <input type="text" value="" name="LNAME" class="form-control" placeholder="Last name" id="mce-LNAME">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label class="sr-only" for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-                            <input type="email" value="" name="EMAIL" class="form-control" placeholder="E-mail" id="mce-EMAIL">
-                        
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label class="sr-only" for="mce-MMERGE4">Main concern </label>
-                            <select name="MMERGE4" class="form-control-select" id="mce-MMERGE4">
-                                <option disabled selected label="Main Concern?">Main Concern?</option>
-                                <option value="I need a landing page.">I need a landing page.</option>
-                                <option value="I need a UX audit.">I need a UX audit.</option>
-                                <option value="I need a website redesign.">I need a website redesign.</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group col-md-12">
-                            <label class="sr-only" for="mce-MMERGE3">Website </label>
-                            <input type="url" value="" name="MMERGE3" class="form-control" placeholder="Website URL" id="mce-MMERGE3">
-                        </div>
-                        <div class="col-md-12">
-                            <input type="submit" value="Order Now" name="subscribe" id="mc-embedded-subscribe" class="btn form-control form-button">
-                        </div>
-                    </form>
-
-
-                -->
-
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">
         <div class="container-fluid text-center text-md-left">
@@ -504,6 +474,8 @@
       </footer>
 
       <button id="myBtn" title="Go to top">Top</button>
-    <script src="assets/js/custom.min.js"></script>
+
+      <div class='ui-loader ui-body-a ui-corner-all'><span class='ui-icon ui-icon-loading spin'></span><h1></h1></div>
+      <script src="assets/js/custom.min.js"></script>
 </body>
 </html>

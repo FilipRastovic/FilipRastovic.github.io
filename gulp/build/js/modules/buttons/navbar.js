@@ -48,12 +48,11 @@ $("#audit-bot").click(function() {
 
 /* Open */
 $("#toggle-button").click(function() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
+    console.log('testarino');
+    $(".overlay").addClass("overlay-open");
 });
 
 /* Close */
-$("#closeNav").click(function() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
+$(".overlay-close").click(function() {
+    $(".overlay").removeClass("overlay-open");
 });

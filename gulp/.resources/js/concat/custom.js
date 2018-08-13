@@ -49,14 +49,13 @@ $("#audit-bot").click(function() {
 
 /* Open */
 $("#toggle-button").click(function() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
+    console.log('testarino');
+    $(".overlay").addClass("overlay-open");
 });
 
 /* Close */
-$("#closeNav").click(function() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
+$(".overlay-close").click(function() {
+    $(".overlay").removeClass("overlay-open");
 });
 // When the user scrolls down 20px from the top of the document, show the button
 $('#myBtn').click(function(){
@@ -78,5 +77,5 @@ function scrollFunction() {
 function topFunction() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#hero-section").offset().top
-    }, 2000);
+    }, 1300);
 }});

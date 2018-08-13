@@ -18,5 +18,5 @@ function scrollFunction() {
 function topFunction() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#hero-section").offset().top
-    }, 2000);
+    }, 1300);
 }
