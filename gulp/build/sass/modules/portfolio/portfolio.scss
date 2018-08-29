@@ -36,6 +36,14 @@
         font-weight: 400 !important;
         text-align: left;
     }
+
+    img {
+        transition: .4s;
+    }
+
+    img:hover {
+        box-shadow: $material-shadow-1;
+    }
 }
 
 .portfolio::after {

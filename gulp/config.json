@@ -6,12 +6,7 @@
       "node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss",
       "node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
       "node_modules/font-awesome/css/font-awesome.css",
-      "node_modules/animate.css/animate.css",
-      "node_modules/rrssb/css/rrssb.css",
-      "node_modules/slick-carousel/slick/slick.css",
-      "node_modules/slick-carousel/slick/slick-theme.css",
-      "node_modules/lightgallery/dist/css/lightgallery.css",
-      "build/third_party/css/plugins/**/*.{css,scss}",
+      "node_modules/magnific-popup/dist/magnific-popup.css",
       "build/sass/baseline/*.scss",
       "build/sass/utilities/*.scss",
       "build/sass/pages/**/*.scss",
@@ -22,18 +17,11 @@
   "javascript" : {
     "concat" : {
       "vendor" : [
-        "build/third_party/legacy/modernizer/modernizr.js",
-        "node_modules/jquery/dist/jquery.js",
-        "build/third_party/legacy/raty-fa/lib/jquery.raty-fa.js",
+       "node_modules/jquery/dist/jquery.js",
         "node_modules/bootstrap-sass/assets/javascripts/bootstrap.js",
         "node_modules/jquery-validation/dist/jquery.validate.js",
         "node_modules/jquery-validation/dist/additional-methods.js",
-        "node_modules/rrssb/js/rrssb.js",
-        "node_modules/jquery-match-height/dist/jquery.matchHeight.js",
-        "node_modules/slick-carousel/slick/slick.js",
-        "node_modules/responsive_waterfall/responsive_waterfall.js",
-        "node_modules/lightgallery/dist/js/lightgallery.js",
-        "node_modules/lg-thumbnail/dist/lg-thumbnail.js"
+        "node_modules/magnific-popup/dist/jquery.magnific-popup.min.js"
       ],
       "third_party": [
         "build/third_party/js/**/*.js"

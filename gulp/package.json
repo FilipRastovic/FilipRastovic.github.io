@@ -14,11 +14,7 @@
     "jquery": "~>3.0.0",
     "jquery-match-height": "^0.7.2",
     "jquery-validation": "^1.17.0",
-    "lg-thumbnail": "^1.1.0",
-    "lightgallery": "1.6.0",
-    "responsive_waterfall": "^1.0.1",
-    "rrssb": "^1.14.0",
-    "slick-carousel": "1.6.0"
+    "magnific-popup": "1.1.0"
   },
   "devDependencies": {
     "browser-sync": "^2.23.6",
