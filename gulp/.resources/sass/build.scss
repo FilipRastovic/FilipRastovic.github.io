@@ -1,5 +1,3 @@
-@import "../../build/sass/variables.scss";
-
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss";
 
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
@@ -2694,38 +2692,38 @@ img.mfp-img {
     padding-left: 6px;
     padding-right: 6px; } }
 
-@import "../../build/sass/baseline/baseline.scss";
+@import "../../build/sass/_variables.scss";
 
-@import "../../build/sass/utilities/highlight.scss";
+@import "../../build/sass/abstracts/_functions.scss";
 
-@import "../../build/sass/utilities/hightlight-hr.scss";
+@import "../../build/sass/abstracts/_mixins.scss";
 
-@import "../../build/sass/utilities/typography.scss";
+@import "../../build/sass/base/_animations.scss";
 
-@import "../../build/sass/modules/ad/ad.scss";
+@import "../../build/sass/base/_base.scss";
 
-@import "../../build/sass/modules/bot-form/bot-form.scss";
+@import "../../build/sass/base/_typography.scss";
 
-@import "../../build/sass/modules/brands/brands.scss";
+@import "../../build/sass/base/_utilities.scss";
 
-@import "../../build/sass/modules/buttons/scrollTop.scss";
+@import "../../build/sass/components/_bot-form.scss";
 
-@import "../../build/sass/modules/copy/card.scss";
+@import "../../build/sass/components/_buttons.scss";
 
-@import "../../build/sass/modules/copy/copy.scss";
+@import "../../build/sass/components/_form.scss";
 
-@import "../../build/sass/modules/footer/footer.scss";
+@import "../../build/sass/components/_scrollTop.scss";
 
-@import "../../build/sass/modules/hero/form.scss";
+@import "../../build/sass/components/_venn.scss";
 
-@import "../../build/sass/modules/hero/heading.scss";
+@import "../../build/sass/components/_vertical-line.scss";
 
-@import "../../build/sass/modules/hero/hero.scss";
+@import "../../build/sass/layout/_footer.scss";
 
-@import "../../build/sass/modules/navbar/navbar-desktop.scss";
+@import "../../build/sass/layout/_navbar-desktop.scss";
 
-@import "../../build/sass/modules/navbar/navbar-mobile.scss";
+@import "../../build/sass/layout/_navbar-mobile.scss";
 
-@import "../../build/sass/modules/portfolio/portfolio.scss";
+@import "../../build/sass/pages/_about.scss";
 
-@import "../../build/sass/modules/venn/venn.scss";
+@import "../../build/sass/pages/_home.scss";

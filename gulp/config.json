@@ -1,17 +1,16 @@
 {
   "sass" : {
     "concat" : [
-      "build/sass/variables.scss",
-      "build/sass/mixins/**/*.scss",
       "node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss",
       "node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
       "node_modules/font-awesome/css/font-awesome.css",
       "node_modules/magnific-popup/dist/magnific-popup.css",
-      "build/sass/baseline/*.scss",
-      "build/sass/utilities/*.scss",
-      "build/sass/pages/**/*.scss",
-      "build/css/**/**/*.css",
-      "build/sass/modules/**/*.scss"
+      "build/sass/_variables.scss",
+      "build/sass/abstracts/*.scss",
+      "build/sass/base/*.scss",
+      "build/sass/components/*.scss",
+      "build/sass/layout/*.scss",
+      "build/sass/pages/*.scss"
     ]
   },
   "javascript" : {

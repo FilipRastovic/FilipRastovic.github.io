@@ -1,8 +1,10 @@
 .form {
     z-index: 3;
+
     input {
         padding: 27px 12px;
         border-radius: 4px;
+        margin-bottom: .7rem;
     }
 
     input::placeholder {
