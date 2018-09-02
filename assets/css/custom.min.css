@@ -8621,6 +8621,11 @@ html, body {
       margin-top: 10rem;
       text-align: left;
       font-size: 5.6rem; } }
+  .heading-secondary--tools {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    font-weight: 300; }
   .heading-secondary--sub {
     font-size: 35px;
     margin-bottom: 2rem;
@@ -9133,7 +9138,7 @@ html, body {
   height: 100%;
   top: 0;
   left: 0;
-  background: #363636;
+  background: #3EA9F5;
   z-index: 99999; }
 
 .overlay nav {
@@ -9255,6 +9260,12 @@ html, body {
     width: 250px; } }
 
 /* Copy section ends */
+.tech {
+  background: #76c6ff;
+  padding-bottom: 4rem; }
+  .tech .padded-bot {
+    padding-bottom: 4rem; }
+
 /* Portfolio section */
 .portfolio {
   padding-bottom: 60px;
@@ -9319,7 +9330,6 @@ html, body {
   .ad h2 {
     margin-bottom: 38px; }
   .ad p {
-    color: white;
     text-align: center;
     margin: 0 19px 10px;
     font-weight: 400 !important; }
@@ -9349,3 +9359,12 @@ html, body {
 @media (min-width: 1000px) {
   .hero-separator {
     padding-top: 210px; } }
+
+.tooltip-inner {
+  background-color: #dadada;
+  color: #383838;
+  font-size: 2rem;
+  font-weight: 700; }
+
+.tooltip.top .tooltip-arrow {
+  border-top-color: #dadada; }

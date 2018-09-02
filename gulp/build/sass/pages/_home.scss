@@ -90,6 +90,15 @@
     }
 }/* Copy section ends */
 
+.tech {
+    background: #76c6ff;
+    padding-bottom: 4rem;
+    .padded-bot {
+        padding-bottom: 4rem;
+    }
+
+}
+
 /* Portfolio section */
 .portfolio {
     padding-bottom: 60px;
@@ -174,7 +183,6 @@
     }
 
     p {
-        color: white;
         text-align: center;
         margin: 0 19px 10px;
         font-weight: 400 !important;
@@ -211,4 +219,15 @@
     @media (min-width: 1000px) {
         padding-top: 210px;
     }
+}
+
+.tooltip-inner {
+    background-color: #dadada;
+    color: #383838;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: #dadada;
 }
