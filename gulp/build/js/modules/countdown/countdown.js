@@ -1,4 +1,4 @@
-var countDownDate = new Date("Sep 10, 2018 15:37:25").getTime();
+var countDownDate = new Date("Sep 5, 2018 15:37:25").getTime();
 
 var x = setInterval(function() {
     var now = new Date().getTime();
@@ -29,4 +29,4 @@ $(function () {
     $('[data-toggle="tooltip-2"]').tooltip();
     $('[data-toggle="tooltip-3"]').tooltip();
     $('[data-toggle="tooltip-4"]').tooltip();
-  })
+  });
