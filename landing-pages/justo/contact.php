@@ -52,11 +52,6 @@ try
     
     // Send email
     mail($sendTo, $subject, $emailText, implode("\n", $headers));
-    echo "<script>
-        $(window).load(function(){
-            $('#thankyouModal').modal('show');
-        });
-    </script>";
     $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
 catch (\Exception $e)
@@ -66,14 +61,15 @@ catch (\Exception $e)
 
 
 // if requested by AJAX request return JSON response
-// if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
-//     $encoded = json_encode($responseArray);
+if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
+    $encoded = json_encode($responseArray);
 
-//     header('Content-Type: application/json');
+    header('Content-Type: application/json');
 
-//     echo $encoded;
-// }
-// // else just display the message
-// else {
-//     echo $responseArray['message'];
-// }
+    echo $encoded;
+   
+}
+// else just display the message
+else {
+    echo $responseArray['message'];
+}
