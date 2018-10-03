@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Apartmani Škopac - Rabac, Istra, Croatia</title>
+        <link rel="stylesheet" href="assets/css/custom.min.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:200,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/css/bootstrap-datepicker.min.css">
+        <style>
+            #map-canvas{
+                height: 500px;
+                border: 1px solid #e3e3e3;
+                }
+        </style>
+    </head>
+    <body>
+        <!-- Mobile Navbar -->
+        <nav class="navbar navbar-default hidden-md hidden-lg">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Apartmani Škopac</a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Naslovna</a></li>
+                <li><a href="apartments.html">Apartmani</a></li>
+                <li><a href="booking.html">Booking &amp; Cjenik</a></li>
+                <li><a href="rabac.html">Rabac</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav><!-- Mobile navbar ends -->
+
+        <!-- Hero & Navbar - desktop -->
+        <section class="section-hero hidden-xs hidden-sm">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-1">
+                        <a class="navbar-brand" href="index.html">Apartmani Škopac</a>
+                    </div>
+                    <div class="col-md-6 col-md-offset-2">
+                        <div class="row navbar-wrapper mt-30">
+                            <nav class="navbar pull-left">
+                                <ul class="nav navbar-nav main-nav">
+                                    <li><a href="index.html" title="Naslovna">Naslovna</a></li>
+                                    <li><a href="apartments.html" title="Apartmani">Apartmani</a></li>
+                                    <li class="active"><a href="booking.html" title="Booking &amp; Cjenik">Booking &amp; Cjenik</a></li>
+                                    <li><a href="rabac.html" title="Rabac">Rabac</a></li>
+                                    <li>
+                                        <div class="dropdown">
+                                        <button class="btn btn-default dropdown-toggle" type="button" 
+                                                id="dropdownMenu1" data-toggle="dropdown" 
+                                                aria-haspopup="true" aria-expanded="true">
+
+                                                 HR
+                                                 <span class="caret"></span>
+                                        </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                                <li><a href="#">EN</a></li>
+                                                <li><a href="#">DE</a></li>
+                                                <li><a href="#">IT</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-form mt-55">
+          <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 form-wrapper">
+                    <h2>Pošaljite upit</h2>
+                    <div class="form" method="POST" action="contact.php">
+                      <div class="col-xs-12 col-sm-12 col-md-12">
+                          <label for="first-name-input">Apartman:</label>
+                          <select class="form-control" id="sel1" name="first-name-input" type="text">
+                            <option class="selected" value="" disabled selected>Odaberi apartman <span class="down-arrow"> ▾</span></option>
+                            <option value="bijeli">Bijeli</option>
+                            <option value="zuti">Žuti</option>
+                            <option value="plavi">Plavi</option>
+                            <option value="zeleni">Zeleni</option>
+                          </select>
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                          <label class="control-label" for="date">Datum dolaska:</label>
+                          <!--<input id="startDate" name="startDate" type="text" class="form-control" />-->
+                          <!--<input class="form-control datum-dolaska" id="date-1" name="date" placeholder="DD/MM/YYY" type="text"/>-->
+                          <input type="text" class="start-date form-control">
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                          <label class="control-label" for="date">Datum odlaska:</label>
+                          <!--<input id="endDate" name="endDate" type="text" class="form-control" />-->
+                          <!--<input class="form-control" id="date-2" name="date" placeholder="DD/MM/YYY" type="text"/>-->
+                          <input type="text" class="end-date form-control">
+
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                          <label for="first-name-input">Odrasli:</label>
+                          <input class="form-control" name="first-name-input" type="text">
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <label for="first-name-input">Djeca:</label>
+                        <input class="form-control" name="first-name-input" type="text">
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <label for="first-name-input">Dodatni ležaj:</label>
+                        <input class="form-control" name="first-name-input" type="text">
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <label for="first-name-input">Kućni ljubimci:</label>
+                        <input class="form-control" name="first-name-input" type="text">
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <label for="first-name-input">Ime i prezime:</label>
+                        <input class="form-control" name="name" type="text">
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <label for="first-name-input">Država:</label>
+                          <input class="form-control" name="first-name-input" type="text">
+                        </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <label for="first-name-input">Tel/Mob:</label>
+                        <input class="form-control" name="first-name-input" type="text">
+                      </div>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <label for="first-name-input">Email:</label>
+                        <input class="form-control" name="email" type="text">
+                      </div>
+                      <div class="col-xs-12 col-sm-12 col-md-12">
+                        <label for="first-name-input">Poruka:</label>
+                        <textarea class="form-control" name="comment" id="" cols="30" rows="6"></textarea>
+                      </div>
+                      <div class="col-xs-12 col-sm-2 col-md-2">
+                          <a type="submit" href="#" class="btn btn--form">Pošalji</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section> 
+
+        <section class="section-pricing" id="pricing">
+          <div class="container">
+            <div class="row pricing">
+              <h2>Cjenik 2018</h2>
+              <div class="pricing-wrp">
+                <table class="table table-striped table-borderless mb-60">
+                  <thead>
+                    <tr>
+                      <th class="table-title">App/dan</th>
+                      <th class="text-center"><span><br>1.1 - 25.6<br>1.9 - 31.12</span></th>
+                      <th class="text-center"><span><br>25.6 - 10.7<br>25.8 - 1.9</span></th>
+                      <th class="text-center"><span>10.7 - 25.8</span></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="col-md-3"><span><strong>Bijeli apartman</strong> - 2 osobe</span></td>
+                      <td class="col-md-3 text-center">27 €</td>
+                      <td class="col-md-3 text-center">35 €</td>
+                      <td class="col-md-3 text-center">39 €</td>
+                    </tr>
+                    <tr>
+                      <td><span><strong>Plavi, zeleni, žuti apartman</strong> - 4 osobe</span></td>
+                      <td class="text-center">47 €</td>
+                      <td class="text-center">57 €</td>
+                      <td class="text-center">62 €</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Dodatni ležaj</strong></td>
+                      <td class="text-center">7 €</td>
+                      <td class="text-center">8 €</td>
+                      <td class="text-center">9 €</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Registracija (pers)</strong></td>
+                      <td class="text-center">-</td>
+                      <td class="text-center">-</td>
+                      <td class="text-center">-</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Boravak kraći od 4 noći</strong></td>
+                      <td class="text-center">+30%</td>
+                      <td class="text-center">+30%</td>
+                      <td class="text-center">+30%</td>
+                    </tr>
+                  </tbody>
+                </table>
+                
+                <table class="table table-striped table-borderless ac-pricing">
+                    <thead>
+                      <tr>
+                        <th class="table-title">A/C Air Conditioner</th>
+                        <th class="text-center">€/day</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><span><strong>Bijeli apartman</strong>,</span> 2 osobe</td>
+                        <td class="text-center">2,50 €</td>
+                      </tr>
+                      <tr>
+                        <td><span><strong>Zeleni apartman</strong>,</span> 4-5 osoba</td>
+                        <td class="text-center">3 €</td>
+                      </tr>
+                      <tr>
+                        <td><span><strong>Plavi apartman</strong>,</span> 4-6 osoba</td>
+                        <td class="text-center">3,50 €</td>
+                      </tr>
+                      <tr>
+                        <td><span><strong>Žuti apartman</strong>,</span> 4-6 osoba</td>
+                        <td class="text-center">4 €</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+            </div>
+          </div>
+      </section>
+
+
+      <section class="section-map">
+        <div class="container-fluid">
+          <div class="row">
+            <h2><i class="fas fa-map-marker-alt"></i>Google mapa</h2>
+            <div id="map-canvas"></div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section-apartments mt-50" id="apartment-cards" >
+          <div class="container">
+              <div class="row text-center">
+                  <div class="col-xs-6 col-sm-3 col-md-3">
+                      <a href="apartments.html#white-apartment" class="apartments-card white">Bijeli apartman<br><small>x</small>2</a>
+                  </div>
+                  <div class="col-xs-6 col-sm-3 col-md-3">
+                      <a href="apartments.html#yellow-apartment" class="apartments-card yellow">Žuti apartman<br><small>x</small>4+2</a>
+                  </div>
+                  <div class="col-xs-6 col-sm-3 col-md-3">
+                      <a href="apartments.html#blue-apartment" class="apartments-card blue">Plavi apartman<br><small>x</small>4+1</a>
+                  </div>
+                  <div class="col-xs-6 col-sm-3 col-md-3">
+                      <a href="apartments.html#green-apartment" class="apartments-card green">Zeleni apartman<br><small>x</small>4+2</a>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      <section class="cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-7 col-sm-offset-1 col-md-6 col-md-offset-2">
+                    <div class="cta-copy">
+                        <h4>Rabac, Istra, Croatia</h4>
+                        <h1>Apartmani Škopac</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ipsum alias, dignissimos qui. Tempora.</p>
+                    </div> 
+                </div>
+                <div class="col-xs-12 col-sm-2 col-sm-offset-1 col-md-3 col-md-offset-1 cta-btn-wrapper">
+                   <a href="booking.html" class="btn btn--full">Book</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+      <footer class="section-footer">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="footer-bg">
+                      <ul class="text-center">
+                          <li>Gornji Rabac 7, 52221 Istra - Istria - Istrien, HR</li>
+                          <li><a class="footer-pad" href="tel:00385911835257">mob: 00385 91 1835 257</a></li>
+                          <li><a href="mailto:skopac@istra4u.com">skopac@istra4u.com</a></li>
+                      </ul>  
+                  </div>
+              </div>
+          </div>
+          <button id="myBtn" title="Go to top">↑</button>
+      </footer>
+
+        <script src="assets/js/custom.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js"></script>
+        <script>
+            $('.start-date').datepicker({
+            templates: {
+                leftArrow: '<i class="fa fa-chevron-left"></i>',
+                rightArrow: '<i class="fa fa-chevron-right"></i>'
+            },
+            format: "dd/mm/yyyy",
+            startDate: new Date(),
+            keyboardNavigation: false,
+            autoclose: true,
+            todayHighlight: true,
+            disableTouchKeyboard: true,
+            orientation: "bottom auto"
+            });
+
+            $('.end-date').datepicker({
+            templates: {
+                leftArrow: '<i class="fa fa-chevron-left"></i>',
+                rightArrow: '<i class="fa fa-chevron-right"></i>'
+            },
+            format: "dd/mm/yyyy",
+            startDate: moment().add(1, 'days').toDate(),
+            keyboardNavigation: false,
+            autoclose: true,
+            todayHighlight: true,
+            disableTouchKeyboard: true,
+            orientation: "bottom auto"
+
+            });
+
+
+            $('.start-date').datepicker().on("changeDate", function () {
+            var startDate = $('.start-date').datepicker('getDate');
+            var oneDayFromStartDate = moment(startDate).add(1, 'days').toDate();
+            $('.end-date').datepicker('setStartDate', oneDayFromStartDate);
+            $('.end-date').datepicker('setDate', oneDayFromStartDate);
+            });
+
+            $('.end-date').datepicker().on("show", function () {
+            var startDate = $('.start-date').datepicker('getDate');
+            $('.day.disabled').filter(function (index) {
+                return $(this).text() === moment(startDate).format('D');
+            }).addClass('active');
+            });
+
+
+        </script>
+          <script async defer src=“https://maps.googleapis.com/maps/api/js?key=AIzaSyCkNfTc6hOR7WyB5H-FI73Ht37OtzNHae4&callback=initMap” type=“text/javascript”></script>
+
+          <script>
+                // if HTML DOM Element that contains the map is found...
+            function initMap() {
+                if (document.getElementById('map-canvas')){
+                
+                // Coordinates to center the map
+                var myLatlng = new google.maps.LatLng(45.08661,14.155146);
+    
+                // Other options for the map, pretty much selfexplanatory
+                var mapOptions = {
+                    zoom: 18,
+                    center: myLatlng,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                // Attach a map to the DOM Element, with the defined settings
+                var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+                var myLatLng = {lat: 45.08661, lng: 14.155146};
+                var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: 'Apartmani Skopac',
+                    label: 'Apartmani Skopac'
+                });
+                
+                var styles = {
+                    default: null,
+                    hide: [
+                    {
+                        featureType: 'poi.business',
+                        stylers: [{visibility: 'off'}]
+                    },
+                    {
+                        featureType: 'transit',
+                        elementType: 'labels.icon',
+                        stylers: [{visibility: 'off'}]
+                    }
+                    ]
+                };
+                map.setOptions({styles: styles['hide']});
+                }
+            }  
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkNfTc6hOR7WyB5H-FI73Ht37OtzNHae4&callback=initMap" type="text/javascript"></script>    
+    </body>
+</html>
