@@ -179,6 +179,10 @@ img::-moz-selection {
   padding-top: 6rem;
 }
 
+#calc p {
+  color: #4A4A4A;
+}
+
 #myBtn {
   display: block;
   /* Hidden by default */
