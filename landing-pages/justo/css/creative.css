@@ -180,7 +180,7 @@ img::-moz-selection {
 }
 
 #myBtn {
-  display: none;
+  display: block;
   /* Hidden by default */
   position: fixed;
   /* Fixed/sticky position */
@@ -223,6 +223,17 @@ img::-moz-selection {
 @media (max-width: 45px) {
   .grey-background--mobile {
     background: #f9fbfa;
+  }
+}
+
+.megan-contact {
+  border-radius: 300px;
+  width: 200px;
+}
+
+@media (max-width: 991px) {
+  .megan-contact {
+    margin-bottom: 25px;
   }
 }
 
@@ -394,7 +405,7 @@ header.masthead hr {
   margin-bottom: 15px;
 }
 
-#contact-noform {
+.contact-noform {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background: #f9fbfa;
@@ -403,20 +414,21 @@ header.masthead hr {
   padding-top: 5rem;
 }
 
-#contact-noform p {
+.contact-noform p {
   font-weight: 600;
 }
 
-#contact-noform a {
+.contact-noform a {
   color: #4A4A4A !important;
   font-size: 26px;
 }
 
-#contact-noform-bot {
+.contact-noform-bot {
   padding-top: 150px;
 }
 
-section#contact {
+section#contact,
+.contact {
   background: white;
   padding-bottom: 4rem;
   padding-top: 5rem;
@@ -424,56 +436,68 @@ section#contact {
   background-position: center;
 }
 
-section#contact p {
+section#contact p,
+.contact p {
   font-weight: 600;
   color: #4A4A4A;
 }
 
-section#contact .section-heading {
+section#contact .section-heading,
+.contact .section-heading {
   color: #000;
 }
 
-section#contact .form-group {
+section#contact .form-group,
+.contact .form-group {
   margin-bottom: 25px;
 }
 
 section#contact .form-group input,
-section#contact .form-group textarea {
+section#contact .form-group textarea,
+.contact .form-group input,
+.contact .form-group textarea {
   padding: 20px;
   background: rgba(221, 221, 221, 0.5);
   border: none;
 }
 
-section#contact .form-group input.form-control {
+section#contact .form-group input.form-control,
+.contact .form-group input.form-control {
   height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#contact .form-group textarea.form-control,
+.contact .form-group textarea.form-control {
   height: 248px;
 }
 
-section#contact .form-control:focus {
+section#contact .form-control:focus,
+.contact .form-control:focus {
   border-color: #2ebd7d;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
-section#contact ::-webkit-input-placeholder {
+section#contact ::-webkit-input-placeholder,
+.contact ::-webkit-input-placeholder {
   font-weight: 600;
   color: #b5b5b5;
 }
 
-section#contact :-moz-placeholder {
+section#contact :-moz-placeholder,
+.contact :-moz-placeholder {
   font-weight: 600;
   color: #b5b5b5;
 }
 
-section#contact ::-moz-placeholder {
+section#contact ::-moz-placeholder,
+.contact ::-moz-placeholder {
   font-weight: 600;
   color: #b5b5b5;
 }
 
-section#contact :-ms-input-placeholder {
+section#contact :-ms-input-placeholder,
+.contact :-ms-input-placeholder {
   font-weight: 600;
   color: #b5b5b5;
 }
