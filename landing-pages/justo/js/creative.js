@@ -134,7 +134,6 @@ $(function () {
 
   // when the form is submitted
   $('#contact-form-2').on('submit', function (e) {
-
       // if the validator does not prevent form submit
       if (!e.isDefaultPrevented()) {
           var url = "contact.php";
@@ -158,7 +157,7 @@ $(function () {
                   // If we have messageAlert and messageText
                   if (messageAlert && messageText) {
                       // inject the alert to .messages div in our form
-                      $('#contact-form-2').find('#outcome-msg').html(alertBox);
+                      $('#contact-form-2').find('#outcome-msg-2').html(alertBox);
                       // empty the form
                       $('#contact-form-2')[0].reset();
                   }
