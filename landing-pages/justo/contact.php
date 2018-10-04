@@ -64,9 +64,11 @@ catch (\Exception $e)
 if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
     $encoded = json_encode($responseArray);
 
-    header('Content-Type: application/json');
+    // header('Content-Type: application/json');
 
-    echo $encoded;
+    // echo $encoded;
+    header('Location: contact-thank-you.html');
+    exit;
    
 }
 // else just display the message

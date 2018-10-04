@@ -334,7 +334,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header.png");
   background-position: center center;
   background-size: cover;
 }
@@ -412,6 +412,12 @@ header.masthead hr {
 #services img {
   border-radius: 200px;
   margin-bottom: 15px;
+}
+
+.contact-name {
+  font-weight: 600;
+  color: #4A4A4A;
+  margin-bottom: 1rem;
 }
 
 .contact-noform {
