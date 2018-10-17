@@ -1,11 +1,15 @@
 .card-wrapper {
   display: inline-block;
-  width:444px;
-  height:200px;
+  
   margin-bottom: 2rem;
   position: relative;
+
+  @media (min-width:768px) {
+    height: 250px;
+  }
 }
 
+/* Scan animation */
 .card-wrapper--ui:after {
   content: " ";
   position: absolute;
@@ -24,12 +28,13 @@
 }
 
 .ui.panel {
-  padding: 2px;
+  padding: 1px;
   background: $primary; /* fallback */
   background: linear-gradient(0deg, transparent 0px, $primary 0) top left, 
               linear-gradient(0deg, transparent 0px, $primary 0) top right, 
               linear-gradient(315deg, transparent 10px, $primary 0) bottom right, 
               linear-gradient(0deg, transparent 0px, $primary 0) bottom left;
+  background: linear-gradient(transparent, $primary) to bottom;
   background-size: 50% 50%;
   background-repeat: no-repeat;
   display: inline-block;

@@ -9,7 +9,7 @@
 // setShadow();
 // setInterval(setShadow, 40)
 
-var title = document.querySelector("p");
+var title = document.querySelector("h1");
 var CHAR_TIME = 30;
 
 var text = void 0,index = void 0;
