@@ -10,7 +10,7 @@
         "spec": "5.3.1",
         "type": "version"
       },
-      "C:\\Users\\Filip\\Documents\\GitHub\\filip-homepage"
+      "C:\\Users\\Filip\\Documents\\GitHub\\filiprastovic\\landing-pages\\homepage"
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.3.1",
@@ -45,7 +45,7 @@
   "_shasum": "5466b8f31c1f493a96754c1426c25796d0633dd9",
   "_shrinkwrap": null,
   "_spec": "@fortawesome/fontawesome-free@5.3.1",
-  "_where": "C:\\Users\\Filip\\Documents\\GitHub\\filip-homepage",
+  "_where": "C:\\Users\\Filip\\Documents\\GitHub\\filiprastovic\\landing-pages\\homepage",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",

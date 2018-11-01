@@ -1,7 +1,7 @@
 // Styling for the navbar
 #mainNav {
     
-    background-color: $white;
+    background-color: black;
     @include sans-serif-font;
     @include transition-all;
     .navbar-brand {
@@ -43,8 +43,8 @@
       border-bottom: 1px solid $primary;
     }
     @media (min-width: 992px) {
-      border-color: transparent;
-      background-color: transparent;
+      border-color: black;
+      background-color: black;
       .navbar-brand {
         color: $primary;
         &:focus,

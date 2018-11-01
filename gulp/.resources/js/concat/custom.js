@@ -79,7 +79,7 @@ function topFunction() {
         scrollTop: $("#hero-section").offset().top
     }, 1300);
 }
-var countDownDate = new Date("Oct 21, 2018 15:37:25").getTime();
+var countDownDate = new Date("Nov 10, 2018 15:37:25").getTime();
 
 var x = setInterval(function() {
     var now = new Date().getTime();

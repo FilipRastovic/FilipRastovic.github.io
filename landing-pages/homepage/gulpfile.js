@@ -65,6 +65,13 @@ gulp.task('vendor', function() {
   ])
   .pipe(gulp.dest('./vendor/animate.css'))
 
+  // fullpage.js
+  gulp.src([
+    './node_modules/fullpage.js/dist/fullpage.min.js',
+    './node_modules/fullpage.js/dist/fullpage.css'
+  ])
+  .pipe(gulp.dest('./vendor/fullpage.js'))
+
 });
 
 // Compile SCSS

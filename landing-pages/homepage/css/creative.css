@@ -324,7 +324,7 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 1rem;
   color: #affff8;
   font-weight: 800;
 }
@@ -342,7 +342,7 @@ header.masthead p {
 
 @media (min-width: 768px) {
   header.masthead p {
-    font-size: 1.15rem;
+    font-size: 18px;
   }
 }
 
@@ -808,7 +808,7 @@ header.masthead p {
   -webkit-animation: glitch-skew 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4s infinite;
   animation: glitch-skew 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 4s infinite;
   font-family: Titillium Web, sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1;
   position: relative;
@@ -1013,7 +1013,7 @@ header.masthead p {
 }
 
 #mainNav {
-  background-color: #fff;
+  background-color: black;
   font-family: 'Titillium Web', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -1065,8 +1065,8 @@ header.masthead p {
 
 @media (min-width: 992px) {
   #mainNav {
-    border-color: transparent;
-    background-color: transparent;
+    border-color: black;
+    background-color: black;
   }
   #mainNav .navbar-brand {
     color: #affff8;
@@ -1111,6 +1111,10 @@ header.masthead p {
   color: #affff8;
   border: 1px solid #affff8 !important;
   padding: 17px 55px;
+}
+
+.cards {
+  padding-top: 0px;
 }
 
 .text-primary {
