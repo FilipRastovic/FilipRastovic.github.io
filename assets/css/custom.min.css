@@ -8595,6 +8595,9 @@ html, body {
   height: 100% !important;
   background: #3EA9F5; }
 
+.paragraph-hero i a {
+  color: white !important; }
+
 .heading-primary {
   font-size: 6rem;
   font-weight: 700;
@@ -9221,9 +9224,11 @@ html, body {
         position: absolute;
         background-size: contain;
         z-index: -2; } }
-  .hero img {
+  .hero .about-image {
     border-radius: 550px;
     border: 3px solid white; }
+  .hero .case-study-image {
+    margin-top: 120px; }
 
 /* Copy section */
 .copy {

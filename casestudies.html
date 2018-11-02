@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123056545-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -30,29 +30,25 @@
 
 <body>
 
-    <!-- Mobile menu overlay -->
+    <!-- ========= MOBILE NAVBAR =========== -->
     <div class="overlay overlay-data">
-        <a href="" class="overlay-close">CLOSE
-        </a>
+        <a href="" class="overlay-close">CLOSE</a>
         <nav>
             <ul>
-            <li class="nav-home" role="presentation"><a href="">Home</a></li>
-            <li role="presentation"><a href="">About</a></li>
-            <li role="presentation"><a href="">Work</a></li>
-            <li role="presentation"><a href="">Blog</a></li>
-            <li role="presentation"><a href="">Contact</a></li>
+                <li role="presentation" class="nav-home"><a href="index.html">Home</a></li>
+                <li role="presentation"><a href="casestudies.html">Case Studies</a></li>
+                <li role="presentation"><a href="process.html">My Process</a></li>
+                <li role="presentation"><a href="about.html">About Me</a></li>
             </ul>
         </nav>
     </div>
-
-    <!-- Mobile navbar-->
     <section class="navbar-section hidden-md hidden-lg">
         <div class="container-fluid">
             <div class="navbar navbar-mobile">
-                <div class="navbar-brand">
+                <a href="index.html" class="navbar-brand">
                     <span class="navbar-brand-text white">Filip Rastovic</span>
-                    <span class="navbar-brand-quote white">Pro landing page development &amp; design</span>
-                </div>
+                    <span class="navbar-brand-quote white">Progressive UX/UI Development &amp; Design</span>
+                </a>
                 <div class="sidenav-hamburger pull-right">
                     <span id="toggle-button" class="burger">
                         <i class="fa fa-bars"></i>
@@ -60,27 +56,181 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section><!-- Mobile navbar ends -->
 
-    <!-- Desktop navbar -->
+    <!-- ============= DESKTOP NAVBAR ============= -->
     <nav class="navbar navbar-default navbar-section navbar-desktop hidden-xs hidden-sm">
         <div class="container-fluid">
             <div class="navbar-header">
-            <a href="#" class="navbar-brand">
+            <a href="index.html" class="navbar-brand">
                 <span class="navbar-brand-text white">Filip Rastovic</span>
-                <span class="navbar-brand-quote white">Expert landing page designer</span>
+                <span class="navbar-brand-quote white">Progressive UX/UI Development &amp; Design</span>
             </a>
             </div>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="casestudies.html">Case Studies</a></li>
-                <li><a href="about.html">About Me</a></li>
+                <li><a href="process.html">My Process</a></li>
                 <li><a id="portfolio" href="#">Portfolio</a></li>
+                <li><a href="about.html">About Me</a></li>
                 <li><a id="contact" href="#" class="contact">Contact?</a></li>
             </ul>
         </div>
-    </nav>
+    </nav><!-- Desktop Navbar Ends-->
 
+    <!-- Highlight Line -->
+    <div class="highlight-line"></div>
+
+    <!-- Hero Section -->
+    <section id="hero-section" class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="hero-card">
+                        <h1 class="heading-primary white">Customr.app</h1>
+                        <p class="paragraph paragraph-hero white">Customr.app is a Budapest based AI analytics survey app developer. The company CEO wanted a modern looking landing page to help him explain what the application is about 
+                            and start collecting leads with offering the visitors to sign up for the demo of the app.
+                        </p>
+                        <p class="paragraph paragraph-hero white">
+                            Robert, the company CEO get in touch with me after searching for a single person to both develop and design him a landing page. He ended up filling out the contact form on this website briefly explaining what he wants.
+                            We got in touch on skype and after a nice chat he sent me over the pdf abstract document he has put together. It was a powerpoint presentation that I had to simplfy and turn into a website presentation. After iterating few times 
+                            with visual mockups and I have sent him, I started coding the page. It looked like this: link. Once I finished the static version I made a custom Wordpress theme out of it, utilizing the Custom Field plugin to allow Robert to
+                            change all the content on the page: images that were in the sliders, text in every section and social urls. During the development I used Adobe XD to sketch up the mockups of the page and once I was ready
+                            to code I forked the great Start Bootstrap template with a built in gulpjs configuration and scss partials that contained all the boiledplate code I would need to create the page. Robert and I moved into another project after this one, design and development
+                            of his personal analytics services company.
+                        </p>
+                        <p class="paragraph paragraph-hero white">
+                            Client review: <br>
+                            <i>Filip has a unique combo of skills, design and development. He proactively suggested some great ideas on how to make the website not just functional but esthetic. He created awesome visual mocks, iterated quickly based on my input and then coded all of it into a superb website. Throughout the process Filip was a charm to work with. All in all, great designer-developer with an outstanding sense for client service.-<a href="http://customr.app">Customr.app</a></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-1">
+                    <div class="hero-image-wrapper">
+                        <a href="assets/img/customr-case-study.png" target="_blank"><img class="img-responsive case-study-image" src="assets/img/customr-case-study.png" alt="Profile"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="hero-card">
+                        <h1 class="heading-primary white">Justo.ca</h1>
+                        <p class="paragraph paragraph-hero white">Justo is a Toronto based real estate agent company that helps its customers buy and sell property easily and with a discount. They needed a landing page for their marketing campaign.
+                        </p>
+                        <p class="paragraph paragraph-hero white">
+                            Justo team sent me over their website to draw design inspiration from and sent me over a wireframe of the landing page they desired. 
+                            The landing page had a savings calculator that would allow visitors to preview how much they would save by buying or selling a property with Justo. 
+                            I developed a calculator by hand and designed a page that would capture their leads and easily allow its visitors to get in touch with a contact person from Justo team.
+                        </p>
+                        <p class="paragraph paragraph-hero white">
+                            Client review: <br>
+                            <i>I needed someone who can design AND develop a landing page and upload it to my website. Filip did a great work in doing the above. It is pleasure working with Filip, he understands what needs to be done and does it in very quick and efficient way. 
+                                    For my next projects for landing pages I would would with him again. 
+                                    Thank you Filip! -Justo</i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-1">
+                    <div class="hero-image-wrapper">
+                        <a href="assets/img/justo-case-study.png" target="_blank"><img class="img-responsive case-study-image" src="assets/img/justo-case-study.png" alt="Profile"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="hero-card">
+                        <h1 class="heading-primary white">Seniorly</h1>
+                        <p class="paragraph paragraph-hero white">Seniorly is a San Francisco based company that helps families and individuals find the right senior living options.
+                        </p>
+                        <p class="paragraph paragraph-hero white">
+                            Seniorly CEO got in touch with me because he and his designer needed help building six landing pages using Unbounce platform. They had wireframes made out of piecing together section screenshots of other websites.
+                            I followed the element positioning and layout with a special focus on making the page properly architectured on mobile (wireframes were desktop only) because most of Seniorly preffer mobile. 
+                            After few iterations where I tried to match their existing design system we came up with something we both liked.
+                        </p>
+                        <p class="paragraph paragraph-hero white">
+                             <br>
+                            <i></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-1 ">
+                    <div class="hero-image-wrapper">
+                        <a href="assets/img/seniorly-case-study.png" target="_blank"><img class="img-responsive case-study-image" src="assets/img/seniorly-case-study.png" alt="Profile"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlight Line -->
+    <div class="highlight-line"></div>
+
+    <section id="portfolio-section" class="portfolio">
+            <div class="container">
+                <div class="row popup-gallery">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+                        <div class="portfolio-wrapper hidden-md hidden-lg">
+                            <h2 class="heading-secondary">Portfolio</h2>
+                            <img class="img-responsive" src="assets/img/customr-small.png" alt="">
+                            <img class="img-responsive" src="assets/img/justo-small.png" alt="">
+                            <img class="img-responsive" src="assets/img/natours-small.png" alt="">
+                            <img class="img-responsive" src="assets/img/bonsal-small.png" alt="">
+                            <img class="img-responsive" src="assets/img/synico-small.png" alt="">
+                            <img class="img-responsive" src="assets/img/wadeLP-small.png" alt="">
+                            <button class="btn">FIND OUT MORE</button>
+                        </div>
+                        <div class="portfolio-wrapper hidden-xs hidden-sm">
+                            <h2 class="heading-secondary u-mt-5">Projects I've worked on</h2>
+                           
+                            <div class="col-md-6">
+                                <a class="popup-gallery" href="assets/img/natours-small.png">
+                                    <img class="img-responsive" src="assets/img/natours-small.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a class="popup-gallery" href="assets/img/bonsal-small.png">
+                                    <img class="img-responsive" src="assets/img/bonsal-small.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a class="popup-gallery" href="assets/img/synico-small.png">
+                                    <img class="img-responsive" src="assets/img/synico-small.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a class="popup-gallery" href="assets/img/wadeLP-small.png">
+                                    <img class="img-responsive" src="assets/img/wadeLP-small.png" alt="">
+                                </a>
+                            </div>
+                             <div class="col-md-6">
+                                <a class="popup-gallery" href="assets/img/customr-small.png">
+                                    <img class="img-responsive" src="assets/img/customr-small.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a class="popup-gallery" href="assets/img/justo-small.png">
+                                    <img class="img-responsive" src="assets/img/justo-small.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+    
+ 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+   
 
     <section id="contact-section" class="bot-form">
         <div class="container">
@@ -128,9 +278,6 @@
                 <ul class="list-unstyled">
                   <li>
                     <a id="portfolio-bot" href="#!">Portfolio</a>
-                  </li>
-                  <li>
-                    <a id="testimonials-bot" href="#!">Testimonials</a>
                   </li>
                   <li>
                     <a id="contact-bot" href="#!">Contact</a>
