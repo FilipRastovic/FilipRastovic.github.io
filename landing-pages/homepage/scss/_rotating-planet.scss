@@ -56,10 +56,9 @@
   }
 
   .scene {
-    top: 10rem;
-    left: 10rem;
-    width: 15rem;
-    height: 15rem;
+
+    width: 130px;
+    height: 130px;
     margin: 2% auto;
     perspective: 100rem;
     animation: flicker-on-2 1000ms linear 1500ms forwards;
@@ -130,3 +129,9 @@
     transform: rotateY(4deg) rotateX(75deg) scale(1.5);
     border-style: dashed;
   }
+
+#displayCanvas {
+  width: 100%;
+  border: 1px solid #00EDFF;
+  
+}

@@ -18,9 +18,7 @@
       > li.nav-item {
          > a.nav-link,
         > a.nav-link:focus {
-          border-right: 1px solid $primary;
-          font-size: 1.3rem;
-          font-weight: 700;
+          font-size: 0.9rem;
           text-transform: uppercase;
           color: $primary;
           &:hover {
@@ -40,11 +38,11 @@
           font-size: 0.9rem;
       }
       
-      border-bottom: 1px solid $primary;
+      
     }
     @media (min-width: 992px) {
-      border-color: black;
-      background-color: black;
+      border-color: transparent;
+      background-color: transparent;
       .navbar-brand {
         color: $primary;
         &:focus,
@@ -53,7 +51,7 @@
         }
       }
       .navbar-nav > li.nav-item > a.nav-link {
-        padding: 0.5rem 1rem;
+        padding: 1.45rem 1rem;
       }
       .navbar-nav > li.nav-item > a.nav-link,
       .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -81,4 +79,12 @@
         }
       }
     }
+  }
+
+  .navbar-toggler {
+    padding: 1.45rem 1rem;
+  }
+
+  .navbar-light .navbar-toggler {
+    color: $primary;
   }

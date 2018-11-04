@@ -47,11 +47,10 @@
 .ui.panel > .content {
   padding: 0.5em;
   color: $primary;
-  background: rgb(175, 255, 248); /* fallback */
-  background: linear-gradient(0deg, transparent 0px, rgba(0, 0, 0, 0.82) 0) top left, 
-              linear-gradient(0deg, transparent 0px, rgba(0, 0, 0, 0.82) 0) top right, 
-              linear-gradient(315deg, transparent 10px, rgba(0, 0, 0, 0.82) 0) bottom right, 
-              linear-gradient(0deg, transparent 0px, rgba(0, 0, 0, 0.82) 0) bottom left;
+  background: linear-gradient(0deg, transparent 0px, rgba(0, 237, 255, 0.06) 0) top left, 
+              linear-gradient(0deg, transparent 0px, rgba(0, 237, 255, 0.06) 0) top right, 
+              linear-gradient(315deg, transparent 10px, rgba(0, 237, 255, 0.06) 0) bottom right, 
+              linear-gradient(0deg, transparent 0px, rgba(0, 237, 255, 0.06) 0) bottom left;
   background-size: 50% 50%;
   background-repeat: no-repeat;
   display: inline-block;

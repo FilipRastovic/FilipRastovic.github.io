@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
+@import url("https://fonts.googleapis.com/css?family=Space+Mono");
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
 body,
 html {
   width: 100%;
@@ -11,7 +13,8 @@ html {
 }
 
 body {
-  font-family: 'Titillium Web', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Space Mono', monospace;
+  font-family: 'Share Tech Mono', monospace;
   background: #000;
   overflow-x: hidden;
 }
@@ -38,6 +41,7 @@ a:hover {
 
 p {
   color: #affff8;
+  font-size: 1rem !important;
 }
 
 h1,
@@ -46,7 +50,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Titillium Web', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Space Mono', monospace;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 .bg-primary {
@@ -315,6 +320,7 @@ strong {
 
 header.masthead {
   padding-top: 2rem;
+  background: black;
 }
 
 header.masthead hr {
@@ -324,9 +330,13 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 1rem;
+  font-size: 20px;
   color: #affff8;
   font-weight: 800;
+  margin-left: 1.7rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  width: 450px;
 }
 
 header.masthead h2 {
@@ -336,8 +346,15 @@ header.masthead h2 {
   margin-bottom: 5rem;
 }
 
-header.masthead p {
-  font-weight: 300;
+header.masthead .header-paragraph {
+  margin-left: 1.7rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead .header-paragraph {
+    width: 600px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -350,7 +367,7 @@ header.masthead p {
   header.masthead {
     height: 100vh;
     min-height: 775px;
-    padding-top: 15rem;
+    padding-top: 2rem;
     padding-bottom: 0;
   }
   header.masthead h1 {
@@ -416,9 +433,7 @@ header.masthead p {
 .ui.panel > .content {
   padding: 0.5em;
   color: #affff8;
-  background: #affff8;
-  /* fallback */
-  background: linear-gradient(0deg, transparent 0px, rgba(0, 0, 0, 0.82) 0) top left, linear-gradient(0deg, transparent 0px, rgba(0, 0, 0, 0.82) 0) top right, linear-gradient(315deg, transparent 10px, rgba(0, 0, 0, 0.82) 0) bottom right, linear-gradient(0deg, transparent 0px, rgba(0, 0, 0, 0.82) 0) bottom left;
+  background: linear-gradient(0deg, transparent 0px, rgba(0, 237, 255, 0.06) 0) top left, linear-gradient(0deg, transparent 0px, rgba(0, 237, 255, 0.06) 0) top right, linear-gradient(315deg, transparent 10px, rgba(0, 237, 255, 0.06) 0) bottom right, linear-gradient(0deg, transparent 0px, rgba(0, 237, 255, 0.06) 0) bottom left;
   background-size: 50% 50%;
   background-repeat: no-repeat;
   display: inline-block;
@@ -521,10 +536,8 @@ header.masthead p {
 }
 
 .scene {
-  top: 10rem;
-  left: 10rem;
-  width: 15rem;
-  height: 15rem;
+  width: 130px;
+  height: 130px;
   margin: 2% auto;
   -webkit-perspective: 100rem;
   perspective: 100rem;
@@ -619,6 +632,11 @@ header.masthead p {
   -webkit-transform: rotateY(4deg) rotateX(75deg) scale(1.5);
   transform: rotateY(4deg) rotateX(75deg) scale(1.5);
   border-style: dashed;
+}
+
+#displayCanvas {
+  width: 100%;
+  border: 1px solid #00EDFF;
 }
 
 .line {
@@ -1014,7 +1032,8 @@ header.masthead p {
 
 #mainNav {
   background-color: black;
-  font-family: 'Titillium Web', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Space Mono', monospace;
+  font-family: 'Share Tech Mono', monospace;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -1023,22 +1042,17 @@ header.masthead p {
   font-weight: 700;
   text-transform: uppercase;
   color: #affff8;
-  font-family: 'Titillium Web', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Space Mono', monospace;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #aefff8;
 }
 
-#mainNav .navbar-nav {
-  border-bottom: 1px solid #affff8;
-}
-
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-  border-right: 1px solid #affff8;
-  font-size: 1.3rem;
-  font-weight: 700;
+  font-size: 0.9rem;
   text-transform: uppercase;
   color: #affff8;
 }
@@ -1065,8 +1079,8 @@ header.masthead p {
 
 @media (min-width: 992px) {
   #mainNav {
-    border-color: black;
-    background-color: black;
+    border-color: transparent;
+    background-color: transparent;
   }
   #mainNav .navbar-brand {
     color: #affff8;
@@ -1075,7 +1089,7 @@ header.masthead p {
     color: #fff;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
-    padding: 0.5rem 1rem;
+    padding: 1.45rem 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -1105,6 +1119,14 @@ header.masthead p {
   }
 }
 
+.navbar-toggler {
+  padding: 1.45rem 1rem;
+}
+
+.navbar-light .navbar-toggler {
+  color: #affff8;
+}
+
 .btn-primary {
   border-radius: 0px;
   background-color: transparent !important;
@@ -1113,8 +1135,26 @@ header.masthead p {
   padding: 17px 55px;
 }
 
+.btn-scifi {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
 .cards {
   padding-top: 0px;
+}
+
+.scifi-panel {
+  border: 1px solid rgba(0, 237, 255, 0.3);
+  background: rgba(0, 237, 255, 0.06);
+  border-radius: 6px;
+  width: 100%;
+}
+
+.scifi-panel-header {
+  height: 356px;
 }
 
 .text-primary {
@@ -1122,31 +1162,28 @@ header.masthead p {
 }
 
 .btn {
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
-  border: none;
-  font-family: 'Titillium Web', 'Helvetica Neue', Arial, sans-serif;
+  border: 1px solid #00EDFF;
+  background: transparent;
+  font-family: 'Space Mono', monospace;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 .btn-xl {
   padding: 1rem 2rem;
 }
 
-.btn-primary {
-  background-color: #affff8;
-  border-color: #affff8;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-scifi:hover, .btn-scifi:focus, .btn-scifi:active {
   color: #fff;
   background-color: #96fff6 !important;
 }
 
-.btn-primary:active, .btn-primary:focus {
+.btn-scifi:active, .btn-scifi:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
-p {
-  font-size: 1rem !important;
+.row {
+  margin-bottom: 30px;
 }

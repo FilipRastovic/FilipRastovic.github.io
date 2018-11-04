@@ -1,6 +1,7 @@
 // Styling for the masthead
 header.masthead {
   padding-top: 2rem;
+  background: black;
   
   hr {
     margin-top: 30px;
@@ -8,9 +9,13 @@ header.masthead {
     margin-left: 0;
   }
   h1 {
-    font-size: 1rem;
+    font-size: 20px;
     color: $primary;
     font-weight: 800; 
+    margin-left: 1.7rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 450px;
   }
 
   h2 {
@@ -19,9 +24,15 @@ header.masthead {
     color: $primary;
     margin-bottom: 5rem;
   }
-  p {
-    font-weight: 300;
+
+  .header-paragraph {
+    margin-left: 1.7rem;
+    margin-bottom: 3rem;
+    @media (min-width: 768px) {
+      width: 600px;
+    }
   }
+
 
   @media (min-width: 768px) {
     p {
@@ -32,7 +43,7 @@ header.masthead {
   @media (min-width: 992px) {
     height: 100vh;
     min-height: 775px;
-    padding-top: 15rem;
+    padding-top: 2rem;
     padding-bottom: 0;
     h1 {
       font-size: 60px;

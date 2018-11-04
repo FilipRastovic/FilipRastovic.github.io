@@ -4,9 +4,10 @@
 }
 
 .btn {
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
-  border: none;
+  border: 1px solid #00EDFF;
+  background: transparent;
   @include sans-serif-font;
 }
 
@@ -14,9 +15,9 @@
   padding: 1rem 2rem;
 }
 
-.btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+.btn-scifi {
+ 
+  
   &:hover,
   &:focus,
   &:active {
@@ -29,6 +30,6 @@
   }
 }
 
-p {
-  font-size: 1rem !important;
+.row {
+  margin-bottom: 30px;
 }

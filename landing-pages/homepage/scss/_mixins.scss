@@ -1,4 +1,7 @@
 // Mixins
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
 @mixin transition-all() {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -11,8 +14,10 @@
   background-size: cover;
 }
 @mixin serif-font() {
-  font-family: 'Titillium Web', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Space Mono', monospace;
+  font-family: 'Share Tech Mono', monospace;
 }
 @mixin sans-serif-font() {
-  font-family: 'Titillium Web', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Space Mono', monospace;
+  font-family: 'Share Tech Mono', monospace;
 }
