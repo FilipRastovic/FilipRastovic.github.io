@@ -352,12 +352,6 @@ header.masthead .header-paragraph {
 }
 
 @media (min-width: 768px) {
-  header.masthead .header-paragraph {
-    width: 600px;
-  }
-}
-
-@media (min-width: 768px) {
   header.masthead p {
     font-size: 18px;
   }
@@ -1119,10 +1113,6 @@ header.masthead .header-paragraph {
   }
 }
 
-.navbar-toggler {
-  padding: 1.45rem 1rem;
-}
-
 .navbar-light .navbar-toggler {
   color: #affff8;
 }
@@ -1140,6 +1130,11 @@ header.masthead .header-paragraph {
   padding-top: 30px;
   padding-bottom: 30px;
   text-transform: uppercase;
+}
+
+button {
+  margin: 0;
+  padding: 0;
 }
 
 .cards {
