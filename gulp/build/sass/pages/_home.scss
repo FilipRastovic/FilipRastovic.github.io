@@ -1,6 +1,6 @@
 .hero {
     background: $blue-color;
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-bottom: 9.5rem;
     position: relative;
     z-index: 1;
@@ -28,7 +28,7 @@
         @media (min-width: 768px) {
             content: "";
             background: url(../img/background-curve.png);
-            opacity: 0.2;
+            opacity: 0.07;
             top: 0;
             left: 0;
             bottom: 0;

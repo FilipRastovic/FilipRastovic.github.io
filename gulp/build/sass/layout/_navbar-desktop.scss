@@ -22,8 +22,8 @@
  }
  
  .contact {
-     border: 1px solid $highlight-color;
-     border-radius: 4px;
+     border: 3px solid $yellow-color;
+     border-radius: 10px;
  }
  
  .navbar {
@@ -48,6 +48,10 @@
      }
  
      a:hover {
-         color: $highlight-color !important;
+         color: $yellow-color !important;
      }//a
+
+     #contact {
+        color: $yellow-color !important;
+     }
  }

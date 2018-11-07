@@ -3,8 +3,12 @@
 
     input {
         padding: 27px 12px;
-        border-radius: 4px;
-        margin-bottom: .7rem;
+        border-radius: 100px;
+        margin-bottom: 1rem;
+    }
+
+    textarea {
+        border-radius: 20px;
     }
 
     input::placeholder {
@@ -12,11 +16,11 @@
     }
 
     .btn {
-        background: $cta-color;
+        background: $yellow-color;
         border: none;
-        color: white;
+        color: $type-color;
         height: 60px;
-        border-radius: 4px;
+        border-radius: 100px;
     }
 
     @media (min-width: 768px) {

@@ -42,3 +42,22 @@ html, body {
 .paragraph-hero i a {
     color: white !important;
 }
+
+#hero-section a {
+    color: $yellow-color !important;
+    text-decoration: underline !important;
+}
+
+#hero-section .btn {
+    color: $type-color !important;
+}
+
+.ebook-cover {
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.heading-secondary--sub {
+    margin-top: 60px !important;
+    
+}
