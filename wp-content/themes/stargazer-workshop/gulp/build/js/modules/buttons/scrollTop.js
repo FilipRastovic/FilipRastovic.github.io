@@ -17,6 +17,6 @@ function scrollFunction() {
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
     $([document.documentElement, document.body]).animate({
-        scrollTop: $("#hero-section").offset().top
+        scrollTop: $(".hero").offset().top
     }, 1300);
 }

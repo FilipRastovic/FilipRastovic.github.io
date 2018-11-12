@@ -9211,6 +9211,50 @@ html, body {
 .about-image {
   margin-top: 8rem; }
 
+.cat-links a,
+.comments-link a,
+.edit-link a {
+  color: white;
+  font-weight: 900;
+  margin-top: 20px; }
+
+.comments-link a,
+.edit-link a {
+  display: block; }
+
+.cat-links {
+  display: block;
+  margin-top: 20px; }
+
+article a {
+  color: white;
+  text-decoration: underline; }
+  article a:hover {
+    color: #FFFC31; }
+
+#reply-title {
+  color: white; }
+
+.logged-in-as a {
+  color: white; }
+
+.comment-form-comment label {
+  color: white;
+  display: block; }
+
+#respond input.submit {
+  margin-top: 30px;
+  background: #FFFC31;
+  border-radius: 50px;
+  color: #333;
+  padding: 19px 82px;
+  font-weight: 900;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  outline: none; }
+  #respond input.submit:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
 .hero {
   background: #3EA9F5;
   padding-top: 4rem;

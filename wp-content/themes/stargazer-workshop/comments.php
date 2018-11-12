@@ -26,7 +26,7 @@ if ( post_password_required() ) {
 	// You can start editing here -- including this comment!
 	if ( have_comments() ) :
 		?>
-		<h2 class="comments-title">
+		<h2 class="comments-title white">
 			<?php
 			$stargazer_workshop_comment_count = get_comments_number();
 			if ( '1' === $stargazer_workshop_comment_count ) {
@@ -40,7 +40,7 @@ if ( post_password_required() ) {
 					/* translators: 1: comment count number, 2: title. */
 					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $stargazer_workshop_comment_count, 'comments title', 'stargazer-workshop' ) ),
 					number_format_i18n( $stargazer_workshop_comment_count ),
-					'<span>' . get_the_title() . '</span>'
+					'<span class="white">' . get_the_title() . '</span>'
 				);
 			}
 			?>
@@ -48,11 +48,12 @@ if ( post_password_required() ) {
 
 		<?php the_comments_navigation(); ?>
 
-		<ol class="comment-list">
+		<ol class="white comment-list">
 			<?php
 			wp_list_comments( array(
 				'style'      => 'ol',
-				'short_ping' => true,
+        'short_ping' => true,
+        'class'      => 'white'
 			) );
 			?>
 		</ol><!-- .comment-list -->
@@ -63,7 +64,7 @@ if ( post_password_required() ) {
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() ) :
 			?>
-			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'stargazer-workshop' ); ?></p>
+			<p class="white no-comments"><?php esc_html_e( 'Comments are closed.', 'stargazer-workshop' ); ?></p>
 			<?php
 		endif;
 

@@ -30,8 +30,6 @@
 
 <button id="myBtn" title="Go to top">Top</button>
 
-<div class='ui-loader ui-body-a ui-corner-all'><span class='ui-icon ui-icon-loading spin'></span>
-		<h1></h1></div>
 
 <?php wp_footer(); ?>
 </body>
