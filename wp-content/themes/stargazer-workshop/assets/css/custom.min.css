@@ -8612,6 +8612,15 @@ html, body {
 .heading-secondary--sub {
   margin-top: 60px !important; }
 
+.comment-notes {
+  color: white; }
+
+.comment-form-author,
+.comment-form-email,
+.comment-form-url {
+  color: white;
+  display: block; }
+
 .heading-primary {
   font-size: 6rem;
   font-weight: 700;
