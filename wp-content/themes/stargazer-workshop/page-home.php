@@ -15,7 +15,7 @@ get_header();
     <div class="row">
       <div class="col-md-7">
         <h1 class="heading-primary">I create <br class="hidden-sm hidden-md hidden-lg"><span class="highlight">websites</span>!</h1>
-        <p class="paragraph paragraph--hero u-bold animated fadeInLeft">Fill the form and recieve a <span class="highlight">free</span>
+        <p class="paragraph paragraph--hero u-bold animated fadeInLeft">Get in touch with me and recieve a <span class="highlight">free</span>
           quote about how I would change your existing design or create
           you a new <span class="highlight">responsive website</span>! Learn more about my website creation process <a
             href="process.html">here</a>.</p>
