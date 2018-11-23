@@ -33,7 +33,9 @@
 
 .navbar-default .navbar-toggle {
   border-color: white;
-  &:hover {
+  &:hover,
+  &:active,
+  &:focus {
     background-color: transparent;
   }
 }

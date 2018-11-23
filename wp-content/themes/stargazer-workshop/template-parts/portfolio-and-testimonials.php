@@ -59,7 +59,7 @@
                 iterated quickly based on my input and then
                 coded all of it into a superb website. Throughout the process Filip was a charm to
                 work with. All in all, great
-                designer-developer with an outstanding sense for client service.-<a href="casestudies.html" target="_blank">Read
+                designer-developer with an outstanding sense for client service.-<a href="/case-studies/" target="_blank">Read
                   Case Studies</a> </i></p>
           </div>
         </div>
@@ -74,7 +74,7 @@
                 way.
                 For my next projects for landing pages I would would with him again.
                 Thank you Filip!
-                <b>-<a href="casestudies.html" target="_blank">Read Case Studies</a> </b></i></p>
+                <b>-<a href="/case-studies/" target="_blank">Read Case Studies</a> </b></i></p>
           </div>
         </div>
         <div class="hidden-md hidden-lg col-xs-10 col-xs-offset-1 transform-image">
@@ -88,7 +88,7 @@
                 modifications to the project but
                 it was easy working with someone who has the patience and understanding to handle
                 projects like this. Looking
-                forward to working with him again in the future. Thank you! <b>-<a href="casestudies.html" target="_blank">Read
+                forward to working with him again in the future. Thank you! <b>-<a href="/case-studies/" target="_blank">Read
                     Case Studies</a> </b></i></p>
           </div>
         </div>
@@ -112,7 +112,7 @@
                   website. Throughout the process Filip
                   was a charm to work with. All in all, great designer-developer with an
                   outstanding sense for client service.
-                  <b>-<a href="casestudies.html" target="_blank">Read Case Studies</a> </b></i></p>
+                  <b>-<a href="/case-studies/" target="_blank">Read Case Studies</a> </b></i></p>
             </div>
           </div>
         </div>
@@ -128,7 +128,7 @@
                   it in very quick and efficient way.
                   For my next projects for landing pages I would would with him again.
                   Thank you Filip!
-                  <b>-<a href="casestudies.html" target="_blank">Read Case Studies</a> </b></i></p>
+                  <b>-<a href="/case-studies/" target="_blank">Read Case Studies</a> </b></i></p>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@
                   takes to debug and make modifications
                   to the project but it was easy working with someone who has the patience and
                   understanding to handle projects like
-                  this. Looking forward to working with him again in the future. Thank you! <b><a href="casestudies.html"
+                  this. Looking forward to working with him again in the future. Thank you! <b><a href="/case-studies/"
                       target="_blank">Read Case Studies</a> </b></i></p>
             </div>
           </div>
