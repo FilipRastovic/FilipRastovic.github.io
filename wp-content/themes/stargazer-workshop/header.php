@@ -36,7 +36,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-  
+
   <link rel="icon" type="image/png" href="<?php bloginfo('template_url'); ?>/assets/img/star_icon.png" />
   <meta name="description" content="Filip Rastovic - Web Development &amp; Design">
   <meta name="keywords" content="web,design,development,stargazer,studio">
@@ -59,7 +59,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="index.html" class="navbar-brand">
+        <a href="/" class="navbar-brand">
           <span class="navbar-brand-text white">Filip Rastovic</span>
           <span class="navbar-brand-quote white">Web Development &amp; Design</span>
         </a>
