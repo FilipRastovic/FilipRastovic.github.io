@@ -18,7 +18,7 @@ get_header();
         <p class="paragraph paragraph--hero u-bold animated fadeInLeft">Get in touch with me and recieve a <span class="highlight">free</span>
           quote about how I would change your existing design or create
           you a new <span class="highlight">responsive website</span>! Learn more about my website creation process <a
-            href="process.html">here</a>.</p>
+            href="/page-process.php">here</a>.</p>
       </div>
       <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-5 col-md-offset-0 text-center">
         <h3 class="heading-secondary heading-secondary--sub highlight u-uppercase animated tada slow">FREE eBOOK HERE!</h3>
