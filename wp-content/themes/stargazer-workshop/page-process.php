@@ -15,8 +15,8 @@ get_header();
     <div class="row">
       <div class="col-md-12">
         <div class="hero-card">
-          <h1 class="heading-primary white">My Process.</h1>
-          <p class="paragraph paragraph-hero white"><strong>RESEARCH</strong>
+          <h1 class="heading-primary">My Process.</h1>
+          <p class="paragraph paragraph-hero"><strong>RESEARCH</strong>
             <br> The first step is where I learn about your business. I want to find out everything about your business
             goals, your customers interests, age, behavior and how can your website solve their problems in the optimal
             way.

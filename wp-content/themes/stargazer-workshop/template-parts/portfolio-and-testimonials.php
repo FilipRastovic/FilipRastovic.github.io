@@ -1,7 +1,7 @@
 <section id="portfolio-section" class="portfolio">
   <div class="container">
     <div class="row popup-gallery">
-      <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+      <div class="col-xs-12 col-md-12 text-center">
         <div class="portfolio-wrapper hidden-md hidden-lg">
           <h2 class="heading-secondary">Portfolio</h2>
           <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/customr-small.png" alt="">

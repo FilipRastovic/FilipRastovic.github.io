@@ -1,0 +1,69 @@
+/* Portfolio section */
+.portfolio {
+  padding-bottom: 60px;
+  background: white;  /* fallback for old browsers */
+  position: relative;
+  z-index: 1;
+
+  .portfolio-wrapper {
+      img {
+          margin-top: 77px;
+          @media (min-width: 768px) {
+              padding-bottom: 100px;
+          }
+      }
+  }
+
+  .btn {
+      background: #F4E04D;
+      margin-top: 60px !important;
+  }
+  
+  .testimonials-title {
+      margin-top: 220px;
+  }
+
+  h3 { 
+      font-weight: 700 !important;
+      margin-top: 50px;
+      margin-bottom: 70px;
+  }
+
+  p {
+      font-size: 17px !important;
+      line-height: 26px !important;
+      font-weight: 400 !important;
+      text-align: left;
+
+      @include respond(phone) {
+          text-align: center;
+      }
+  }
+
+  img {
+      transition: .4s;
+  }
+
+  img:hover {
+      box-shadow: $material-shadow-1;
+  }
+}
+
+.portfolio::after {
+  // content: "";
+  // background: url(../img/copy-background.png);
+  // opacity: 0.1;
+  // top: 0;
+  // left: 0;
+  // bottom: 0;
+  // right: 0;
+  // position: absolute;
+  // background-size: cover;
+  // z-index: -2;
+
+  // @media (min-width: 768px) {
+  //     background: url(../img/background-curve.png);
+  //     background-size: contain;
+  //     opacity: 0.05;
+  // }
+}

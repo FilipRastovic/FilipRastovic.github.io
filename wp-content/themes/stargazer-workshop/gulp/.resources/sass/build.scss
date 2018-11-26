@@ -2694,23 +2694,27 @@ img.mfp-img {
 
 @import "../../build/sass/_variables.scss";
 
-@import "../../build/sass/abstracts/_functions.scss";
+@import "../../build/sass/global/0_mixins.scss";
 
-@import "../../build/sass/abstracts/_mixins.scss";
+@import "../../build/sass/global/_animations.scss";
 
-@import "../../build/sass/base/_animations.scss";
+@import "../../build/sass/global/_base.scss";
 
-@import "../../build/sass/base/_base.scss";
+@import "../../build/sass/global/_functions.scss";
 
-@import "../../build/sass/base/_typography.scss";
+@import "../../build/sass/global/_typography.scss";
 
-@import "../../build/sass/base/_utilities.scss";
+@import "../../build/sass/global/_utilities.scss";
 
 @import "../../build/sass/components/_bot-form.scss";
 
 @import "../../build/sass/components/_buttons.scss";
 
+@import "../../build/sass/components/_footer.scss";
+
 @import "../../build/sass/components/_form.scss";
+
+@import "../../build/sass/components/_navbar.scss";
 
 @import "../../build/sass/components/_scrollTop.scss";
 
@@ -2718,14 +2722,18 @@ img.mfp-img {
 
 @import "../../build/sass/components/_vertical-line.scss";
 
-@import "../../build/sass/layout/_footer.scss";
+@import "../../build/sass/sections/_about.scss";
 
-@import "../../build/sass/layout/_navbar-desktop.scss";
+@import "../../build/sass/sections/_brands.scss";
 
-@import "../../build/sass/layout/_navbar-mobile.scss";
+@import "../../build/sass/sections/_case-studies.scss";
 
-@import "../../build/sass/pages/_about.scss";
+@import "../../build/sass/sections/_copy.scss";
 
-@import "../../build/sass/pages/_case-studies.scss";
+@import "../../build/sass/sections/_cta.scss";
 
-@import "../../build/sass/pages/_home.scss";
+@import "../../build/sass/sections/_hero.scss";
+
+@import "../../build/sass/sections/_portfolio.scss";
+
+@import "../../build/sass/sections/_tech.scss";

@@ -35,16 +35,11 @@ body {
 
 html, body {
     height: 100% !important;
-    background: #3EA9F5;
+    background: white;
 }
 
 .paragraph-hero i a {
     color: white !important;
-}
-
-#hero-section a {
-    color: $yellow-color !important;
-    text-decoration: underline !important;
 }
 
 #hero-section .btn {
@@ -69,4 +64,8 @@ html, body {
 .comment-form-url {
   color: white;
   display: block;
+}
+
+.entry-content {
+  color: white; 
 }

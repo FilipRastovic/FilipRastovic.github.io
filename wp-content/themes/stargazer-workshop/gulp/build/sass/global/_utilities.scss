@@ -23,12 +23,12 @@
 }
 
 .highlight-line {
-    height: 10px;
-    background-color: $hr-color;
+    height: 1px;
+    background-color: whitesmoke;
 }
 
 .highlight {
-    color: $yellow-color;
+    color: $navbar-color;
 }
 
 .pull-right {
@@ -56,5 +56,23 @@
 }
 
 .u-highlight-y {
-    color: $yellow-color !important;
+    //color: $navbar-color !important;
+    text-decoration: underline;
+}
+
+.hero-separator {
+  @media (min-width: 1000px) {
+      padding-top: 210px;
+  }
+}
+
+.tooltip-inner {
+  background-color: #dadada;
+  color: #383838;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.tooltip.top .tooltip-arrow {
+  border-top-color: #dadada;
 }
