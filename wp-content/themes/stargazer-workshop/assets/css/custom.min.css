@@ -8593,10 +8593,10 @@ body {
 
 html, body {
   height: 100% !important;
-  background: white; }
+  background: black; }
 
 .paragraph-hero i a {
-  color: white !important; }
+  color: black !important; }
 
 #hero-section .btn {
   color: #333333 !important; }
@@ -8609,79 +8609,39 @@ html, body {
   margin-top: 60px !important; }
 
 .comment-notes {
-  color: white; }
+  color: black; }
 
 .comment-form-author,
 .comment-form-email,
 .comment-form-url {
-  color: white;
+  color: black;
   display: block; }
 
 .entry-content {
-  color: white; }
-
-.heading-primary {
-  font-size: 6rem;
-  font-weight: 700;
   color: black; }
-  @media only screen and (max-width: 37.5em) {
-    .heading-primary {
-      text-align: center; } }
-  @media only screen and (max-width: 56.25em) {
-    .heading-primary {
-      text-align: center; } }
-  @media (min-width: 1000px) {
-    .heading-primary {
-      margin-bottom: 3rem; } }
 
-.heading-secondary {
-  font-weight: 600;
-  font-size: 5.6rem; }
-  @media only screen and (max-width: 37.5em) {
-    .heading-secondary {
-      margin-bottom: 4rem;
-      font-size: 3.8rem; } }
-  @media (min-width: 1000px) {
-    .heading-secondary--copy {
-      margin-bottom: 12rem;
-      margin-top: 10rem;
-      text-align: left;
-      font-size: 5.6rem; } }
-  .heading-secondary--tools {
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-    font-weight: 300; }
-  .heading-secondary--sub {
-    font-size: 35px;
-    margin-bottom: 2rem;
-    margin-top: 0; }
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: 'Lato'; }
+  @media (min-width: 990px) {
+    h1 {
+      font-size: 40px; } }
 
-.paragraph {
-  font-size: 2.3rem; }
-  .paragraph--hero {
-    color: black; }
-    @media only screen and (max-width: 37.5em) {
-      .paragraph--hero {
-        text-align: center;
-        padding-top: 3rem;
-        padding-bottom: 6rem; } }
-    @media only screen and (max-width: 56.25em) {
-      .paragraph--hero {
-        text-align: center;
-        padding-top: 3rem;
-        padding-bottom: 6rem; } }
-  .paragraph--copy {
-    font-weight: 400 !important; }
-    @media (min-width: 1000px) {
-      .paragraph--copy {
-        position: relative;
-        top: -120px;
-        right: -2px;
-        text-align: left; } }
+p {
+  font-size: calc(14px + .25vw);
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+  letter-spacing: .5px;
+  line-height: 1.4; }
 
-.discount {
-  font-size: 4rem; }
+h2 {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: 'Lato'; }
+
+a {
+  color: #333333; }
 
 .u-padding-bottom-huge {
   padding-bottom: 60px; }
@@ -8694,9 +8654,6 @@ html, body {
 
 .u-margin-top-120 {
   margin-top: 120px !important; }
-
-.white {
-  color: white !important; }
 
 .mb-60 {
   margin-bottom: 60px !important; }
@@ -9297,44 +9254,30 @@ article a {
         margin: 30px 100px; } }
 
 .hero {
-  padding-top: 7rem;
   padding-bottom: 14rem;
   position: relative;
   z-index: 1;
   font-family: 'Lato';
   background: white; }
-  .hero a {
-    color: #333333; }
-  .hero h2 {
-    font-size: 30px;
-    font-weight: 800;
-    font-family: 'Lato'; }
-  .hero h1 {
-    font-size: 67px;
-    font-weight: 800;
-    font-family: 'Lato'; }
-  .hero p {
-    font-size: calc(14px + .25vw);
-    font-family: 'Roboto Slab';
-    font-weight: 400;
-    letter-spacing: .5px;
-    line-height: 1.4; }
-  .hero .linerino {
-    background-color: #B7B7B7;
-    border-collapse: #B7B7B7;
-    background: #B7B7B7; }
+  @media (min-width: 990px) {
+    .hero img {
+      margin-top: 20px; } }
+  @media (min-width: 990px) {
+    .hero {
+      padding-top: 7rem; } }
   @media (min-width: 1400px) {
     .hero {
-      padding-top: 12rem; }
-      .hero form {
-        margin-top: 4rem; } }
-  .hero img {
-    margin-top: 20px; }
+      padding-top: 12rem; } }
   .hero .about-image {
     border-radius: 550px;
     border: 3px solid white; }
   .hero .case-study-image {
     margin-top: 120px; }
+
+.linerino {
+  background-color: #B7B7B7;
+  border-collapse: #B7B7B7;
+  background: #B7B7B7; }
 
 /* Portfolio section */
 .portfolio {

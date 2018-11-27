@@ -1,100 +1,27 @@
-.heading-primary {
-    font-size: 6rem;
-    font-weight: 700;
-    color: black;
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: 'Lato';
 
-    @include respond(phone) {
-        text-align: center;
-    }
-
-    @include respond(tab-port) {
-        text-align: center;
-    }
-
-    @media (min-width: 1000px) {
-        margin-bottom: 3rem;
-    }
-
-    &--sub {
-
-    }
+  @media (min-width: 990px) {
+    font-size: 40px;
+  }
 }
 
-.heading-secondary {
-    font-weight: 600;
-    font-size: 5.6rem;
-    
-    @include respond(phone) {
-        margin-bottom: 4rem;
-        font-size: 3.8rem;
-    }
-
-    &--copy {
-        @media (min-width: 1000px) {
-            margin-bottom: 12rem;
-            margin-top: 10rem;
-            text-align: left;
-            font-size: 5.6rem;
-        }
-    }
-
-    &--tools {
-        font-size: 2.5rem;
-        margin-bottom: 3rem;
-        margin-top: 3rem;
-        font-weight: 300;
-
-        img:hover {
-
-        }
-    }
-
-    &--sub {
-        font-size: 35px;
-        margin-bottom: 2rem;
-        margin-top: 0;
-    }
+p {
+  font-size: calc(14px + .25vw);
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+  letter-spacing: .5px;
+  line-height: 1.4;
 }
 
-.paragraph {
-    font-size: 2.3rem;
-
-    &--hero {
-        color: black;
-        @include respond(phone) {
-            text-align: center;
-            padding-top: 3rem;
-            padding-bottom: 6rem;
-        }
-
-        @include respond(tab-port) {
-            text-align: center;
-            padding-top: 3rem;
-            padding-bottom: 6rem;
-        }
-    }
-
-    &--copy {
-        font-weight: 400 !important;
-        
-
-        @media (min-width: 1000px){
-            position: relative;
-            top: -120px;
-            right: -2px;
-            text-align: left;
-        }
-    }
-
-    &--centered {
-        
-    }
-
-    &--left {
-        
-    }
+h2 {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: 'Lato';
 }
 
-.discount {
-    font-size: 4rem;
+a {
+  color: #333333;
 }

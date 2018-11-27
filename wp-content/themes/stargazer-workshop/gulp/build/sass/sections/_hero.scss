@@ -1,53 +1,22 @@
 .hero {
-  padding-top: 7rem;
   padding-bottom: 14rem;
   position: relative;
   z-index: 1;
   font-family: 'Lato';
   background: white;
 
-  a {
-    color: #333333;
+  img {
+    @media (min-width: 990px) {
+      margin-top: 20px;
+    }
   }
 
-  h2 {
-    font-size: 30px;
-    font-weight: 800;
-    font-family: 'Lato';
-  }
-
-  h1 {
-    font-size: 67px;
-    font-weight: 800;
-    font-family: 'Lato';
-  }
-
-  p {
-    font-size: calc(14px + .25vw);
-    font-family: 'Roboto Slab';
-    font-weight: 400;
-    letter-spacing: .5px;
-    line-height: 1.4;
-    
-  }
-
-  .linerino {
-    background-color: #B7B7B7;
-    border-collapse: #B7B7B7;
-    background: #B7B7B7;
+  @media (min-width: 990px) {
+    padding-top: 7rem;
   }
 
   @media (min-width: 1400px) {
       padding-top: 12rem;
-
-      form {
-          margin-top: 4rem;
-      }
-  }
-
-  img {
-    // opacity: 0.6;
-    margin-top: 20px;
   }
 
   .about-image {
@@ -58,4 +27,20 @@
   .case-study-image {
       margin-top: 120px;
   }
+
+// @media (max-width: 990px) {
+//     .pull-up-sm {
+//       float: right;
+//     }
+
+//     .pull-down-sm {
+//       float: left;
+//     }
+//   }
+}
+
+.linerino {
+  background-color: #B7B7B7;
+  border-collapse: #B7B7B7;
+  background: #B7B7B7;
 }

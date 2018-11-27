@@ -3,7 +3,8 @@
     <div class="row popup-gallery">
       <div class="col-xs-12 col-md-12 text-center">
         <div class="portfolio-wrapper hidden-md hidden-lg">
-          <h2 class="heading-secondary">Portfolio</h2>
+          <h2>Portfolio</h2>
+          <hr class="linerino">
           <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/customr-small.png" alt="">
           <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/justo-small.png" alt="">
           <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/natours-small.png" alt="">
@@ -14,33 +15,33 @@
         </div>
         <div class="portfolio-wrapper hidden-xs hidden-sm">
           <h2 class="heading-secondary u-mt-5">Projects I've worked on</h2>
-
-          <div class="col-md-6">
+          <hr class="linerino">
+          <div class="col-md-4 col-md-offset-2">
             <a class="popup-gallery" href="<?php bloginfo('template_url'); ?>/assets/img/natours-small.png">
               <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/natours-small.png" alt="">
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <a class="popup-gallery" href="<?php bloginfo('template_url'); ?>/assets/img/bonsal-small.png">
               <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/bonsal-small.png" alt="">
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4 col-md-offset-2">
             <a class="popup-gallery" href="<?php bloginfo('template_url'); ?>/assets/img/synico-small.png">
               <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/synico-small.png" alt="">
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <a class="popup-gallery" href="<?php bloginfo('template_url'); ?>/assets/img/wadeLP-small.png">
               <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/wadeLP-small.png" alt="">
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4 col-md-offset-2">
             <a class="popup-gallery" href="<?php bloginfo('template_url'); ?>/assets/img/customr-small.png">
               <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/customr-small.png" alt="">
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <a class="popup-gallery" href="<?php bloginfo('template_url'); ?>/assets/img/justo-small.png">
               <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/justo-small.png" alt="">
             </a>

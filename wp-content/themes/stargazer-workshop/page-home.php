@@ -13,22 +13,22 @@ get_header();
 <section id="hero-section" class="hero hero--background">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-1 text-center">
-        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/generative.jpg" alt="">
-      </div>
-      <div class="col-md-6 col-md-offset-1">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-md-push-6">
         <h1>WELCOME</h1>
         <hr class="linerino">
         <p>Welcome to my website! I'm Filip and I'm a freelance developer with an affection for web, user experience
           and product design. I help companies and individuals create software. My clients are webpreneurs, agencies
           and small businesses from all
           around the globe whom I help implement new features and fix issues within their website or application. My
-          hobby is writing <a href="https://github.com/FilipRastovic" target="_blank" class="u-highlight-y u-bold white">Code</a>
+          hobby is writing <a href="https://github.com/FilipRastovic" target="_blank" class="u-highlight-y u-bold">Code</a>
           and designing <a class="u-highlight-y u-bold" href="http://stargazerstudio.net/" target="_blank">Video Games</a>.
           See my <a class="u-highlight-y u-bold" href="about.html#portfolio-section">Portfolio</a> or check out my <a
             target="_blank" href="Filip_Rastovic_Resume.pdf" class="u-highlight-y u-bold">Resume</a></p>
         <hr class="linerino">
         <p>Happy hacking!</p>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-5 col-md-pull-6 text-center">
+        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/generative.jpg" alt="">
       </div>
     </div>
 </section>
@@ -37,16 +37,9 @@ get_header();
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h2>WELCOME</h2>
+        <h2>Companies Hire Me When</h2>
         <hr class="linerino">
-        <p>Welcome to my website! I'm Filip and I'm a freelance developer with an affection for web, user experience
-          and product design. I help companies and individuals create software. My clients are webpreneurs, agencies
-          and small businesses from all
-          around the globe whom I help implement new features and fix issues within their website or application. My
-          hobby is writing <a href="https://github.com/FilipRastovic" target="_blank" class="u-highlight-y u-bold white">Code</a>
-          and designing <a class="u-highlight-y u-bold" href="http://stargazerstudio.net/" target="_blank">Video Games</a>.
-          See my <a class="u-highlight-y u-bold" href="about.html#portfolio-section">Portfolio</a> or check out my <a
-            target="_blank" href="Filip_Rastovic_Resume.pdf" class="u-highlight-y u-bold">Resume</a></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis molestiae libero error quaerat aut commodi quisquam maxime excepturi magni? Saepe qui ratione veritatis id dolorum amet reiciendis doloribus doloremque laboriosam.</p>
         <hr class="linerino">
         <p>Happy hacking!</p>
       </div>
