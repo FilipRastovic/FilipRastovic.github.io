@@ -1,1 +1,0 @@
-<div class="highlight-line"></div>
