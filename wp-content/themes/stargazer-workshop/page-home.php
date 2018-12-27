@@ -13,35 +13,42 @@ get_header();
 <section id="hero-section" class="hero hero--background">
   <div class="container">
     <div class="row">
-      <div class="col-md-7">
-        <h1 class="heading-primary">I create <br class="hidden-sm hidden-md hidden-lg"><span class="highlight">websites</span>!</h1>
-        <p class="paragraph paragraph--hero u-bold animated fadeInLeft">Fill the form and recieve a <span class="highlight">free</span>
-          quote about how I would change your existing design or create
-          you a new <span class="highlight">responsive website</span>! Learn more about my website creation process <a
-            href="process.html">here</a>.</p>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-md-push-6">
+        <h1>WELCOME</h1>
+        <hr class="linerino">
+        <p>Welcome to my website! I'm Filip and I'm a freelance developer with an affection for web, user experience
+          and product design. I help companies and individuals create software. My clients are webpreneurs, agencies
+          and small businesses from all
+          around the globe whom I help implement new features and fix issues within their website or application. My
+          hobby is writing <a href="https://github.com/FilipRastovic" target="_blank" class="u-highlight-y u-bold">Code</a>
+          and designing <a class="u-highlight-y u-bold" href="http://stargazerstudio.net/" target="_blank">Video Games</a>.
+          See my <a class="u-highlight-y u-bold" href="about.html#portfolio-section">Portfolio</a> or check out my <a
+            target="_blank" href="Filip_Rastovic_Resume.pdf" class="u-highlight-y u-bold">Resume</a></p>
+        <hr class="linerino">
+        <p>Happy hacking!</p>
       </div>
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-5 col-md-offset-0 text-center">
-        <h3 class="heading-secondary heading-secondary--sub highlight u-uppercase animated tada slow">FREE eBOOK HERE!</h3>
-        <img class="img-responsive ebook-cover" src="<?php bloginfo('template_url'); ?>/assets/img/fr-ebook.png" alt="Ebook Cover">
-        <a target="_blank" href="<?php bloginfo('template_url'); ?>/assets/download//Filip Rastovic - Website Creation eBook.pdf"
-          class="btn" download>Download the eBook!</a>
-
-        <p class="paragraph text-center white u-margin-top-60">Let your UX be evaluated by professionals.</p>
+      <div class="col-xs-12 col-sm-12 col-md-5 col-md-pull-6 text-center">
+        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/generative.jpg" alt="">
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
-        <p class="hero-separator paragraph paragraph--hero u-padding-top-40">Growth hack your business
-          today.</p>
-        <div class="vl hidden-xs hidden-sm"></div>
-      </div>
+</section>
 
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 venn">
+<div class="hero hero--background">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Companies Hire Me When</h2>
+        <hr class="linerino">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis molestiae libero error quaerat aut commodi quisquam maxime excepturi magni? Saepe qui ratione veritatis id dolorum amet reiciendis doloribus doloremque laboriosam.</p>
+        <hr class="linerino">
+        <p>Happy hacking!</p>
+      </div>
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-0 text-center venn">
         <div class="venn-diagram-container">
           <div class="circle-top-left">
             <label>
-              <span class="title">Software Engineering</span>
-              <span class="subtitle">Analysis <span class="hidden-xs">+</span> Development</span>
+              <span class="title">Software Development</span>
+              <span class="subtitle">Analysis <span class="hidden-xs">+</span> Engineering</span>
             </label>
           </div>
           <div class="circle-top-right" style="z-index: 2;">
@@ -88,7 +95,8 @@ get_header();
       </div>
     </div>
   </div>
-</section>
+</div>
+
 
 <!-- Portfolio and Testimonials Section -->
 <?php get_template_part('template-parts/portfolio-and-testimonials'); ?>

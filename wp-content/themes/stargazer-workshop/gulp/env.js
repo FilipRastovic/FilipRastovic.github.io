@@ -1,8 +1,8 @@
 module.exports = {
     // Settings
-    liveReload: false,
+    liveReload: true,
     // BrowserSync Configuration
-    siteUrl: 'gulp.localhost',
+    siteUrl: 'localhost:3000',
     port: 3000,
     // BrowserSync File Path Configuration
     templatePath: '../index.html',

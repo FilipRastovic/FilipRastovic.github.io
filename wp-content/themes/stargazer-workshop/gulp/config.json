@@ -6,11 +6,9 @@
       "node_modules/font-awesome/css/font-awesome.css",
       "node_modules/magnific-popup/dist/magnific-popup.css",
       "build/sass/_variables.scss",
-      "build/sass/abstracts/*.scss",
-      "build/sass/base/*.scss",
+      "build/sass/global/*.scss",
       "build/sass/components/*.scss",
-      "build/sass/layout/*.scss",
-      "build/sass/pages/*.scss"
+      "build/sass/sections/*.scss"
     ]
   },
   "javascript" : {

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-md-12 padded-bot">
-        <h2 class="heading-secondary text-center white heading-secondary--tools">Tools I Use</h2>
+        <h2 class="heading-secondary text-center heading-secondary--tools">Tools I Use</h2>
         <div class="vl hidden-xs hidden-sm"></div>
       </div>
       <div class="col-xs-2 col-sm-2 col-md-1">

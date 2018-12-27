@@ -1,5 +1,6 @@
 .venn {
     padding-top: 50px;
+    color: black;
 
     @media (max-width: 500px) {
         padding-top: 164px;
@@ -48,7 +49,7 @@ $subtitle-font-size-xs: round($title-font-size-xs / ($font-size-calculation * 1.
 $subtitle-font-size-sm: ($subtitle-font-size-xs * $font-size-calculation);
 $subtitle-font-size-md: ($subtitle-font-size-sm * $font-size-calculation);
 $subtitle-font-size-lg: ($subtitle-font-size-md * $font-size-calculation);
-$color-1: rgb(255,79,76);
+$color-1: rgb(236, 41, 41);
 $color-2: adjust-hue($color-1, -80%);
 $color-3: adjust-hue($color-2, -80%);
 $color-alpha: 0.75;
@@ -137,6 +138,7 @@ $third-circle-color-hover: rgba($color-3, $color-alpha-hover);
 }
 
 .title {
+  font-family: 'Lato';
   display: block;
   font-size: $title-font-size-xs;
   @include breakpoint(sm) { font-size: $title-font-size-sm; }
@@ -144,6 +146,8 @@ $third-circle-color-hover: rgba($color-3, $color-alpha-hover);
 }
 
 .subtitle {
+  
+  font-family: 'Lato';
   font-size: $subtitle-font-size-xs;
   @include breakpoint(sm) { font-size: $subtitle-font-size-sm; }
   @include breakpoint(md) { font-size: $subtitle-font-size-md; }

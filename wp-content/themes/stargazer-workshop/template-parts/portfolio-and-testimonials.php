@@ -1,9 +1,10 @@
 <section id="portfolio-section" class="portfolio">
   <div class="container">
     <div class="row popup-gallery">
-      <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+      <div class="col-xs-12 col-md-12 text-center">
         <div class="portfolio-wrapper hidden-md hidden-lg">
-          <h2 class="heading-secondary">Portfolio</h2>
+          <h2>Portfolio</h2>
+          <hr class="linerino">
           <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/customr-small.png" alt="">
           <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/justo-small.png" alt="">
           <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/natours-small.png" alt="">
@@ -14,33 +15,33 @@
         </div>
         <div class="portfolio-wrapper hidden-xs hidden-sm">
           <h2 class="heading-secondary u-mt-5">Projects I've worked on</h2>
-
-          <div class="col-md-6">
+          <hr class="linerino">
+          <div class="col-md-4 col-md-offset-2">
             <a class="popup-gallery" href="<?php bloginfo('template_url'); ?>/assets/img/natours-small.png">
               <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/natours-small.png" alt="">
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <a class="popup-gallery" href="<?php bloginfo('template_url'); ?>/assets/img/bonsal-small.png">
               <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/bonsal-small.png" alt="">
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4 col-md-offset-2">
             <a class="popup-gallery" href="<?php bloginfo('template_url'); ?>/assets/img/synico-small.png">
               <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/synico-small.png" alt="">
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <a class="popup-gallery" href="<?php bloginfo('template_url'); ?>/assets/img/wadeLP-small.png">
               <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/wadeLP-small.png" alt="">
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4 col-md-offset-2">
             <a class="popup-gallery" href="<?php bloginfo('template_url'); ?>/assets/img/customr-small.png">
               <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/customr-small.png" alt="">
             </a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <a class="popup-gallery" href="<?php bloginfo('template_url'); ?>/assets/img/justo-small.png">
               <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/assets/img/justo-small.png" alt="">
             </a>
@@ -59,7 +60,7 @@
                 iterated quickly based on my input and then
                 coded all of it into a superb website. Throughout the process Filip was a charm to
                 work with. All in all, great
-                designer-developer with an outstanding sense for client service.-<a href="casestudies.html" target="_blank">Read
+                designer-developer with an outstanding sense for client service.-<a href="/case-studies/" target="_blank">Read
                   Case Studies</a> </i></p>
           </div>
         </div>
@@ -74,7 +75,7 @@
                 way.
                 For my next projects for landing pages I would would with him again.
                 Thank you Filip!
-                <b>-<a href="casestudies.html" target="_blank">Read Case Studies</a> </b></i></p>
+                <b>-<a href="/case-studies/" target="_blank">Read Case Studies</a> </b></i></p>
           </div>
         </div>
         <div class="hidden-md hidden-lg col-xs-10 col-xs-offset-1 transform-image">
@@ -88,7 +89,7 @@
                 modifications to the project but
                 it was easy working with someone who has the patience and understanding to handle
                 projects like this. Looking
-                forward to working with him again in the future. Thank you! <b>-<a href="casestudies.html" target="_blank">Read
+                forward to working with him again in the future. Thank you! <b>-<a href="/case-studies/" target="_blank">Read
                     Case Studies</a> </b></i></p>
           </div>
         </div>
@@ -112,7 +113,7 @@
                   website. Throughout the process Filip
                   was a charm to work with. All in all, great designer-developer with an
                   outstanding sense for client service.
-                  <b>-<a href="casestudies.html" target="_blank">Read Case Studies</a> </b></i></p>
+                  <b>-<a href="/case-studies/" target="_blank">Read Case Studies</a> </b></i></p>
             </div>
           </div>
         </div>
@@ -128,7 +129,7 @@
                   it in very quick and efficient way.
                   For my next projects for landing pages I would would with him again.
                   Thank you Filip!
-                  <b>-<a href="casestudies.html" target="_blank">Read Case Studies</a> </b></i></p>
+                  <b>-<a href="/case-studies/" target="_blank">Read Case Studies</a> </b></i></p>
             </div>
           </div>
         </div>
@@ -144,7 +145,7 @@
                   takes to debug and make modifications
                   to the project but it was easy working with someone who has the patience and
                   understanding to handle projects like
-                  this. Looking forward to working with him again in the future. Thank you! <b><a href="casestudies.html"
+                  this. Looking forward to working with him again in the future. Thank you! <b><a href="/case-studies/"
                       target="_blank">Read Case Studies</a> </b></i></p>
             </div>
           </div>
